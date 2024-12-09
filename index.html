@@ -1,11 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Hello World</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud ECS -Helperlah</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/home.css" />
+  </head>
+  <body>
+    <!-- ====NAV bar==== -->
+    <section class="header">
+      <nav class="navbar navbar-expand-lg py-0">
+        <div class="container-fluid px-0 py-md-2 py-lg-0 py-2">
+          <a href="./" class="text-light text-decoration-none ps-2">
+            <span class="fw-bold fs-4 mb-0"> Helperlah </span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto text-light ps-2">
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Services</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">join as partner</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Blog</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Login/Register</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">
+                  <i class="fas fa-bell"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="py-2 num text-center">
+              <!-- <a class="text-decoration-none text-light " href="#"> -->
+              <button class="btn register_button mx-3" type="button">
+                +65 88941306
+              </button>
+              <!-- </a> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="container-fluid pt-3 pb-5">
+      <!-- ====Hero section====- -->
+      <section class="hero my-3">
+        <div class="row mt-4">
+          <div
+            class="col-md-5 col-12 d-flex flex-column justify-content-between ps-2 ps-md-3 ps-lg-5"
+          >
+            <div class="">
+              <p class="fw-medium mb-1">The Best</p>
+              <h1 class="h1-tag mb-4">
+                Home Cleaning & Repair Services in Singapore
+              </h1>
+              <h2 class="h2-tag mb-4">Affordable,safe & dependable</h2>
+            </div>
+            <button type="button" class="btn book-now-btn me-auto">
+              Book Now
+            </button>
+            <div class="mt-4 mt-md-2">
+              <img
+                src="./assets/images/image 1.png"
+                alt="Play store"
+                class="link_img"
+              />
+              <img
+                src="./assets/images/image 2.png"
+                alt="App store"
+                class="link_img"
+              />
+            </div>
+          </div>
+          <div class="col-md-7 col-12">
+            <div class="row mt-3 d-flex justify-content-evenly">
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g197 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Home Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g211 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Home Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g96 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Laundry</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g197 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Sofa Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g6 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Deep Cleaning</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 d-flex justify-content-evenly">
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g23 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Window Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g204 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Floor Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g96 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Laundry</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g197 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Sofa Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g23 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Window Cleaning</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 d-flex justify-content-evenly">
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g197 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Home Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g211 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Home Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g96 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Laundry</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g197 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Sofa Cleaning</p>
+                </div>
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <div
+                  class="d-flex flex-column justify-content-end align-items-center"
+                >
+                  <img
+                    src="./assets/images/g6 1.png"
+                    alt="buket"
+                    class="img-fluid img"
+                  />
+                  <p class="p-tag">Deep Cleaning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====Image Section==== -->
+      <section class="Image_section container-fluid pt-5">
+        <div class="row">
+          <div class="col-12">
+            <div class="card custom-card py-5 px-2">
+              <div class="d-flex justify-content-evenly">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="form-control custom-input"
+                />
+                <input
+                  type="text"
+                  placeholder="Phone Numer"
+                  class="form-control custom-input"
+                />
+                <input
+                  type="date"
+                  placeholder="Date"
+                  class="form-control custom-input"
+                />
+                <input
+                  type="text"
+                  placeholder="Service"
+                  class="form-select custom-input"
+                />
+              </div>
+            </div>
+            <div class="my-5 d-flex justify-content-center">
+              <button type="button" class="btn book-now-btn">Book Now</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 ">
+            <img src="./assets/images/content_3.webp" alt="Cleaning " class="img-fluid">
+          </div>
+          <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+            <div class="">
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-12 d-flex justify-content-center align-items-center ">
+            <div class="">
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 ">
+            <img src="./assets/images/content_2.webp" alt="Cleaning"  class="img-fluid">
+          </div>
+          <div class="col-md-6 col-12">
+            <img src="./assets/images/content_1.webp" alt="Cleaning"  class="img-fluid">
+          </div>
+          <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+            <div class="">
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, quasi, dolores consequatur corporis at voluptate placeat corrupti tempore recusandae molestias iusto quos repellat cumque! Maxime debitis excepturi neque culpa aspernatur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Frequently</h2>
+            </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
