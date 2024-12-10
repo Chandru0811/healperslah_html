@@ -26,15 +26,15 @@
 .header {
   border-bottom: 0.5px solid #e1e1e1;
   background: #e10064;
-  position: fixed;
+  position: sticky;
   width: -webkit-fill-available;
   top: 0;
-  z-index: 1;
-
+  z-index: 999;
 }
 
-.navbar-nav .nav-link.active{
-    color: aliceblue;
+.navbar-nav .nav-link.active {
+  color: aliceblue;
+  font-size: small !important;
 }
 .header .register_button {
   border-radius: 0px;
@@ -45,9 +45,8 @@
   padding-bottom: 10px;
   font-size: 13px;
 }
-.header .num{
-    background-color: yellowgreen;
-   
+.header .num {
+  background-color: #0dc648;
 }
 
 .header .nav-link {
@@ -56,48 +55,169 @@
 
 /*==== Header Ends  ====*/
 
-
 /*==== Home Section ====*/
-.img{
-    width: 60px;
+
+.img {
+  width: 60px;
 }
-.link_img{
-    width: 100px;
+.link_img {
+  width: 100px;
 }
-.h1-tag{
-    color: #e10064;
+.h1-tag {
+  color: #e10064;
 }
-.h2-tag{
-   
+.h2-tag {
 }
-.p-tag{
-    color: #e10064;
-    margin: 10px 0px;
-    font-size: 11px;
-    font-weight: 600;
+.p-tag {
+  color: #ff4397;
+  margin: 10px 0px;
+  font-size: 11px;
+  font-weight: 600;
 }
 .book-now-btn {
-    background-color: #e10064;
-    color: aliceblue;
-    padding: 8px 20px;
+  background-color: #ff4397;
+  color: aliceblue;
+  padding: 8px 20px;
 }
-.book-now-btn:hover{
-    background-color: #db307d;
-    color: rgb(34, 34, 34);
+.book-now-btn:hover {
+  background-color: #db307d;
+  color: rgb(34, 34, 34);
 }
 
+/*==== Image Section ====*/
+.custom-input {
+  width: 20% !important;
+  border: #ff4397 1px solid;
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .custom-input {
+    width: 100% !important;
+  }
+  .p-fs {
+    font-size: small;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .p-fs {
+    font-size: small;
+  }
+}
+.custom-input:focus {
+  border: #ff4397 1px solid;
+  border-color: #ff4397;
+  box-shadow: 0 0 0 0.2rem #e100657a;
+}
+.custom-input::placeholder {
+  font-size: 12px;
+}
+.custom-card {
+  border: #ff4397 1px solid;
+  box-shadow: 0px 3px 5px 0px #e100657a;
+}
 
-/*==== IMage Section ====*/
-.custom-input{
- width: 17% !important;
- border:#e10064 1px solid
+.image-cont {
+  height: 90% !important;
 }
-.custom-input:focus{
- border:#e10064 1px solid;
- border-color:#db307d;
- box-shadow: 0 0 0 .20rem #e100657a;
+.image_decs_left {
+  background-color: #ffffff;
+  border: #ff4397 1px solid;
+  width: 200px;
+  height: 100px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* right: 0; */
 }
-.custom-card{
-    border:#e10064 1px solid;
-    box-shadow: 0px 3px 5px .10rem #e100657a;
+.image_decs_right {
+  background-color: #ffffff;
+  border: #ff4397 1px solid;
+  width: 200px;
+  height: 100px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* ====Accordion==== */
+.text-ff4397 {
+  color: #ff4397;
+  font-weight: bold;
+}
+.accordion-item {
+  border-radius: 5px;
+}
+.accordion-button {
+  background-color: #ffffff;
+  color: #333;
+
+  border-radius: 5px !important;
+  border: 1px solid #ff4397;
+}
+.accordion-button:focus {
+  border: #ff4397 1px solid;
+  border-color: #ff4397;
+  /* box-shadow: 0 0 0 .20rem #e100657a; */
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #ff4397;
+  color: #fff;
+  box-shadow: none;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  border: 0.5px solid #efefef;
+}
+.accordion-button::after {
+  background-image: url("../images/plus.png");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/mins.png");
+}
+
+.bottom_card {
+  background-color: #ff4397;
+}
+
+.book_now_2 {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 10px 30px;
+  color: #ff4397;
+  font-weight: 700;
+}
+.book_now_2:hover {
+  background-color: #ffffff;
+  color: #ff4397;
+}
+
+.bottom_card_ptag {
+  font-size: small;
+}
+
+/*==== Footer ====*/
+.footer {
+  /* height: 30vh; */
+  background-color: #e10064;
+}
+.footer-title {
+  font-weight: bolder;
+  position: relative;
+  /* color: #ff4397; */
+  top: 2px;
+}
+.footer-links .links {
+  margin: 30px 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.footer-links .links2 {
+  margin: 30px 0;
+  padding: 0px;
+  cursor: pointer;
 }
