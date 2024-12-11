@@ -33,9 +33,9 @@
 }
 
 .navbar-nav .nav-link.active {
-    color: aliceblue;
-    font-size: calc(0.5rem + .4vw) !important;
-  }
+  color: aliceblue;
+  font-size: calc(0.5rem + 0.4vw) !important;
+}
 
 .header .register_button {
   border-radius: 0px;
@@ -45,12 +45,12 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 600;
-  font-size: calc(0.7rem + .4vw);
+  font-size: calc(0.7rem + 0.4vw);
 }
 
 .header .num {
-    background-color: #0dc648;
-  }
+  background-color: #0dc648;
+}
 
 .header .nav-link {
   font-size: 90%;
@@ -64,8 +64,15 @@
 .partner_top {
   width: 100%;
   text-align: center;
-  background-color: #ff8b38;
-  /* Orange background */
+  background: linear-gradient(
+      0deg,
+      rgba(255, 147, 52, 0.7) 0%,
+      rgba(255, 147, 52, 0.7) 100%
+    ),
+    url("../images/helper_partner_hero.webp"), no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .h1-tag {
   color: #ffffff;
@@ -74,25 +81,17 @@
   color: #ffffff;
   font-size: medium;
 }
-.text-color{
-    color: #ff4397;
+.text-color {
+  color: #ff4397;
 }
 /* Form Container */
 .form-container {
-  margin: 20px auto;
+  /* margin: 20px auto;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  width: 90%;
-  height: 165px;
-}
-
-.form-container form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  width: 90%; */
 }
 
 .form-container input {
@@ -102,11 +101,11 @@
   border-radius: 10px;
   outline: none;
   font-size: 1rem;
-  margin-right: 10px;
 }
 
 .form-container input::placeholder {
   color: grey;
+  font-weight: 600;
 }
 
 .form-container button {
@@ -219,64 +218,63 @@
 
 /*==== Image section ====*/
 .image-cont {
-    height: 90%; 
-    position: relative;
-  }
+  height: 90%;
+  position: relative;
+}
+.image_decs_left {
+  background-color: #ffffff;
+  border: #ff4397 1px solid;
+  width: 190px;
+  height: 91px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  bottom: -7%;
+  left: -10%;
+}
+.img-fluid.custom-border {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.image_decs_right {
+  background-color: #ffffff;
+  border: #ff4397 1px solid;
+  width: 190px;
+  height: 91px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  bottom: -7%;
+  right: -5%;
+}
+
+@media (max-width: 768px) {
   .image_decs_left {
-    background-color: #ffffff;
-    border: #ff4397 1px solid;
-    width: 190px;
-    height: 91px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: absolute;
-    bottom: -7%; 
-    left: -10%; 
-  }
-  .img-fluid.custom-border {
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    height: auto; 
-    width: 100%; 
-    object-fit: cover; 
+    width: 110px;
+    height: 60px;
+    bottom: -10%;
+    left: -4%;
   }
   .image_decs_right {
-    background-color: #ffffff;
-    border: #ff4397 1px solid;
-    width: 190px;
-    height: 91px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: absolute;
-    bottom: -7%;
-    right: -5%;
+    width: 110px;
+    height: 60px;
+    bottom: -10%;
+    right: -4%;
   }
-  
-  @media (max-width: 768px) {
-    .image_decs_left {
-      width: 90px;
-      height: 60px;
-      bottom: -10%; /* Adjust for smaller screen */
-      left: -4%;
-    }
-    .image_decs_right{
-        width: 90px;
-        height: 50px;
-        bottom: -8%; /* Adjust for smaller screen */
-        left: -4%;
-    }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .p-fs {
+    font-size: small;
   }
-  @media screen and (min-width: 300px) and (max-width: 768px) {
-    
-    .p-fs {
-      font-size: small;
-    }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .p-fs {
+    font-size: small;
   }
-  @media screen and (min-width: 769px) and (max-width: 980px) {
-    .p-fs {
-      font-size: small;
-    }
-  }
+}
 
 /* ====Accordion==== */
 .text-ff4397 {
@@ -312,7 +310,7 @@
   background-image: url("../images/plus.png");
 }
 .accordion-button:not(.collapsed)::after {
-    background-image: url("../images/mins.png");
+  background-image: url("../images/mins.png");
 }
 
 .bottom_card {
