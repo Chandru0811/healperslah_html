@@ -34,7 +34,7 @@
 
 .navbar-nav .nav-link.active {
   color: aliceblue;
-  font-size: calc(0.5rem + .4vw) !important;
+  font-size: calc(0.5rem + 0.4vw) !important;
 }
 .header .register_button {
   border-radius: 0px;
@@ -44,7 +44,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 600;
-  font-size: calc(0.7rem + .4vw);
+  font-size: calc(0.7rem + 0.4vw);
 }
 .header .num {
   background-color: #0dc648;
@@ -60,105 +60,141 @@
 
 /* Partner Section */
 .partner_top {
-    width: 100%;
-    text-align: center;
-    background-color: #ff8b38;
-    /* Orange background */
-  }
-  .h1-tag {
-    color: #ffffff;
-  }
-  .h2-tag {
-    color: #ffffff;
-    font-size: medium;
-  }
-  .text-color{
-      color: #ff4397;
-  }
-  /* Form Container */
-  .form-container {
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 90%;
-    height: 165px;
-  }
-  
-  .form-container form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .form-container input {
-    flex: 0.3;
-    padding: 10px;
-    border: 1px solid #ff0099;
-    border-radius: 10px;
-    outline: none;
-    font-size: 1rem;
-    margin-right: 10px;
-  }
-  
-  .form-container input::placeholder {
-    color: grey;
-  }
-  
-  .form-container button {
-    background-color: #ff0099;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    flex: none;
-  }
-  
-  .form-container button:hover {
-    background-color: #e50088;
-  }
-  
-  /* Download Buttons */
-  .download-container {
-    display: flex;
-    justify-content: end;
-    gap: 10px;
-    margin-right: 90px;
-  }
-  
-  .download-container img {
-    width: 150px;
-    height: auto;
-  }
-  
-  .link_img {
-    display: inline-block;
-  }
-  /*==== Hero section end ====*/
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 147, 52, 0.7) 0%,
+      rgba(255, 147, 52, 0.7) 100%
+    ),
+    url("../images/helper_partner_hero.webp"), no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.h1-tag {
+  color: #ffffff;
+}
+
+.h2-tag {
+  color: #ffffff;
+  font-size: medium;
+}
+.text-color {
+  color: #ff4397;
+}
+.form-container input {
+  flex: 0.3;
+  padding: 10px;
+  border: 1px solid #ff0099;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.form-container input::placeholder {
+  color: grey;
+  font-weight: 600;
+}
+
+.form-container button {
+  background-color: #ff0099;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  flex: none;
+}
+
+.form-container button:hover {
+  background-color: #e50088;
+}
+/* Download Buttons */
+.download-container {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-right: 90px;
+}
+
+.download-container img {
+  width: 150px;
+  height: auto;
+}
+
+.link_img {
+  display: inline-block;
+}
+/*==== Hero section end ====*/
 
 /*==== Footer ====*/
 .footer {
-    /* height: 30vh; */
-    background-color: #e10064;
-  }
-  .footer-title {
-    font-weight: bolder;
-    position: relative;
-    color: #ffffff;
-    top: 2px;
-  }
-  .footer-links .links {
-    margin: 30px 0;
-    padding: 5px;
-    cursor: pointer;
-  }
-  
-  .footer-links .links2 {
-    margin: 30px 0;
-    padding: 0px;
-    cursor: pointer;
-  }
+  /* height: 30vh; */
+  background-color: #e10064;
+}
+.footer-title {
+  font-weight: bolder;
+  position: relative;
+  color: #ffffff;
+  top: 2px;
+}
+.footer-links .links {
+  margin: 30px 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.footer-links .links2 {
+  margin: 30px 0;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.contact-container .card {
+  border: 1px solid #ff4397;
+  border-radius: 30px;
+}
+
+.contact-text {
+  font-size: 34px;
+  font-weight: 400;
+  color: #ff4397;
+}
+
+.our-address {
+  font-size: 34px;
+  font-weight: 700;
+  color: #ff4397;
+}
+
+.contact-map-container .address {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bottom_card {
+  background-color: #ff4397;
+}
+
+
+.sign_up_btn {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 15px 40px;
+  color: #ff4397;
+  font-weight: 700;
+}
+.sign_up_btn:hover {
+  background-color: #ffffff;
+  color: #ff4397;
+}
+
+.bottom_card_ptag {
+  font-size: small;
+}
+.link_img {
+  width: 100px;
+}
