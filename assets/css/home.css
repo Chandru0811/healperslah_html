@@ -43,7 +43,8 @@
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: calc(0.7rem + .4vw);
 }
 .header .num {
   background-color: #0dc648;
@@ -67,6 +68,7 @@
   color: #e10064;
 }
 .h2-tag {
+  font-size: calc(0.8rem + .4vw);
 }
 .p-tag {
   color: #ff4397;
@@ -78,6 +80,7 @@
   background-color: #ff4397;
   color: aliceblue;
   padding: 8px 20px;
+  font-weight: bold;
 }
 .book-now-btn:hover {
   background-color: #db307d;
@@ -107,12 +110,12 @@
   border-color: #ff4397;
   box-shadow: 0 0 0 0.2rem #e100657a;
 }
-.custom-input::placeholder {
+/* .custom-input::placeholder {
   font-size: 12px;
-}
+} */
 .custom-card {
   border: #ff4397 1px solid;
-  box-shadow: 0px 3px 5px 0px #e100657a;
+  box-shadow: 2px 2px 2px 0px #e1006542;
 }
 
 .image-cont {
@@ -186,7 +189,7 @@
 .book_now_2 {
   background-color: #ffffff;
   border-radius: 3px;
-  padding: 10px 30px;
+  padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;
 }
@@ -207,7 +210,7 @@
 .footer-title {
   font-weight: bolder;
   position: relative;
-  /* color: #ff4397; */
+  color: #ffffff;
   top: 2px;
 }
 .footer-links .links {
