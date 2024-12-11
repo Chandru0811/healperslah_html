@@ -34,7 +34,7 @@
 
 .navbar-nav .nav-link.active {
   color: aliceblue;
-  font-size: small !important;
+  font-size: calc(0.5rem + .4vw) !important;
 }
 .header .register_button {
   border-radius: 0px;
@@ -92,7 +92,20 @@
   width: 20% !important;
   border: #ff4397 1px solid;
 }
-@media screen and (min-width: 300px) and (max-width: 768px) {
+
+input[type="date"]::-webkit-datetime-edit-text {
+  color: grey;
+}
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: grey;
+}
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); 
+} */
+@media screen and (min-width: 300px) and (max-width: 700px) {
   .custom-input {
     width: 100% !important;
   }
@@ -100,6 +113,12 @@
     font-size: small;
   }
 }
+/* @media screen and (min-width: 700px) and (max-width: 768px) {
+  .custom-input {
+    width: 100% !important;
+  }
+ 
+} */
 @media screen and (min-width: 769px) and (max-width: 980px) {
   .p-fs {
     font-size: small;
@@ -119,30 +138,51 @@
 }
 
 .image-cont {
-  height: 90% !important;
+  height: 90%; 
+  position: relative;
 }
 .image_decs_left {
   background-color: #ffffff;
   border: #ff4397 1px solid;
-  width: 200px;
-  height: 100px;
+  width: 190px;
+  height: 91px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  /* right: 0; */
+  bottom: -7%; 
+  left: -8%; 
+}
+.img-fluid.custom-border {
+  border-radius: 5px;
+  height: auto; 
+  width: 100%; 
+  object-fit: cover; 
 }
 .image_decs_right {
   background-color: #ffffff;
   border: #ff4397 1px solid;
-  width: 200px;
-  height: 100px;
+  width: 190px;
+  height: 91px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -7%;
+  right: -5%;
+}
+
+@media (max-width: 768px) {
+  .image_decs_left {
+    width: 110px;
+      height: 60px;
+    bottom: -10%; /* Adjust for smaller screen */
+    left: -4%;
+  }
+  .image_decs_right{
+      width: 110px;
+      height: 60px;
+      bottom: -10%; /* Adjust for smaller screen */
+      right: -4%;
+  }
 }
 /* ====Accordion==== */
 .text-ff4397 {
@@ -157,7 +197,7 @@
   color: #333;
 
   border-radius: 5px !important;
-  border: 1px solid #ff4397;
+  border: #ffc4de 0.5px solid;
 }
 .accordion-button:focus {
   border: #ff4397 1px solid;
