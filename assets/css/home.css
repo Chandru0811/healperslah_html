@@ -34,7 +34,7 @@
 
 .navbar-nav .nav-link.active {
   color: aliceblue;
-  font-size: calc(0.5rem + .4vw) !important;
+  font-size: calc(0.5rem + 0.4vw) !important;
 }
 .header .register_button {
   border-radius: 0px;
@@ -44,7 +44,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 600;
-  font-size: calc(0.7rem + .4vw);
+  font-size: calc(0.7rem + 0.4vw);
 }
 .header .num {
   background-color: #0dc648;
@@ -68,7 +68,7 @@
   color: #e10064;
 }
 .h2-tag {
-  font-size: calc(0.8rem + .4vw);
+  font-size: calc(0.8rem + 0.4vw);
 }
 .p-tag {
   color: #ff4397;
@@ -83,8 +83,8 @@
   padding: 8px 20px;
   color: #ffffff;
   font-weight: 700;
-  border: 1px solid #ff4397; 
-  transition: all 0.3s ease; 
+  border: 1px solid #ff4397;
+  transition: all 0.3s ease;
 }
 
 .book-now-btn:hover {
@@ -92,23 +92,23 @@
   color: #ffffff;
 }
 
-.book-now-btn:active, 
+.book-now-btn:active,
 .book-now-btn:focus {
   background-color: #ff4397 !important;
   color: #ffffff !important;
-  outline: none !important; 
-  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important; 
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
 }
-.custom-check{
-  right: 0;
+.custom-check {
+  right: 5%;
 }
-.custom-check:checked{
+.custom-check:checked {
   background-color: #ff4397 !important;
-  border: 1px solid #ff4397 !important; 
-}
-.custom-check:focus{
   border: 1px solid #ff4397 !important;
-  box-shadow: 0 0 0 .25rem #ff439842;
+}
+.custom-check:focus {
+  border: 1px solid #ff4397 !important;
+  box-shadow: 0 0 0 0.25rem #ff439842;
 }
 
 /*==== Image Section ====*/
@@ -163,52 +163,53 @@ input[type="date"]::-webkit-datetime-edit-year-field {
 }
 
 .image-cont {
-  height: 90%; 
+  height: 90%;
   position: relative;
 }
 .image_decs_left {
   background-color: #ffffff;
   border: #ff4397 1px solid;
-  width: 190px;
-  height: 91px;
+  width: 250px;
+  height: 125px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
-  bottom: -7%; 
-  left: -8%; 
+  bottom: -9%;
+  left: -11%;
 }
 .img-fluid.custom-border {
   /* border-radius: 3px; */
-  height: auto; 
-  width: 100%; 
-  object-fit: cover; 
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
 .image_decs_right {
   background-color: #ffffff;
   border: #ff4397 1px solid;
-  width: 190px;
-  height: 91px;
+  width: 250px;
+  height: 125px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
-  bottom: -7%;
-  right: -5%;
+  bottom: -9%;
+  right: -11%;
 }
 
 @media (max-width: 768px) {
   .image_decs_left {
-    width: 110px;
-      height: 60px;
-    bottom: -10%; 
-    left: -4%;
+    width: 140px;
+    height: 80px;
+    bottom: -10%;
+    left: -7%;
   }
-  .image_decs_right{
-      width: 110px;
-      height: 60px;
-      bottom: -10%;
-      right: -4%;
+  .image_decs_right {
+    width: 140px;
+    height: 80px;
+    bottom: -10%;
+    right: -7%;
   }
 }
+
 /* ====Accordion==== */
 .text-ff4397 {
   color: #ff4397;
@@ -257,8 +258,8 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;
-  border: 1px solid #ff4397; 
-  transition: all 0.3s ease; 
+  border: 1px solid #ff4397;
+  transition: all 0.3s ease;
 }
 
 .book_now_2:hover {
@@ -266,12 +267,12 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   color: #ff4397;
 }
 
-.book_now_2:active, 
+.book_now_2:active,
 .book_now_2:focus {
   background-color: #ffffff !important;
   color: #ff4397 !important;
-  outline: none !important; 
-  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important; 
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
 }
 .bottom_card_ptag {
   font-size: small;
