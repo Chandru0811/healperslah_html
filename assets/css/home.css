@@ -27,7 +27,7 @@
   border-bottom: 0.5px solid #e1e1e1;
   background: #e10064;
   position: sticky;
-  width: -webkit-fill-available;
+  width: 100%;
   top: 0;
   z-index: 999;
 }
@@ -76,15 +76,39 @@
   font-size: 11px;
   font-weight: 600;
 }
+
 .book-now-btn {
   background-color: #ff4397;
-  color: aliceblue;
+  /* border-radius: 3px; */
   padding: 8px 20px;
-  font-weight: bold;
+  color: #ffffff;
+  font-weight: 700;
+  border: 1px solid #ff4397; 
+  transition: all 0.3s ease; 
 }
+
 .book-now-btn:hover {
-  background-color: #db307d;
-  color: rgb(34, 34, 34);
+  background-color: #ff4397;
+  color: #ffffff;
+}
+
+.book-now-btn:active, 
+.book-now-btn:focus {
+  background-color: #ff4397 !important;
+  color: #ffffff !important;
+  outline: none !important; 
+  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important; 
+}
+.custom-check{
+  right: 0;
+}
+.custom-check:checked{
+  background-color: #ff4397 !important;
+  border: 1px solid #ff4397 !important; 
+}
+.custom-check:focus{
+  border: 1px solid #ff4397 !important;
+  box-shadow: 0 0 0 .25rem #ff439842;
 }
 
 /*==== Image Section ====*/
@@ -154,7 +178,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   left: -8%; 
 }
 .img-fluid.custom-border {
-  border-radius: 3px;
+  /* border-radius: 3px; */
   height: auto; 
   width: 100%; 
   object-fit: cover; 
@@ -233,12 +257,22 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;
+  border: 1px solid #ff4397; 
+  transition: all 0.3s ease; 
 }
+
 .book_now_2:hover {
   background-color: #ffffff;
   color: #ff4397;
 }
 
+.book_now_2:active, 
+.book_now_2:focus {
+  background-color: #ffffff !important;
+  color: #ff4397 !important;
+  outline: none !important; 
+  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important; 
+}
 .bottom_card_ptag {
   font-size: small;
 }
