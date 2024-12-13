@@ -84,13 +84,22 @@
 .text-color {
   color: #ff4397;
 }
+.form-container .card {
+  /* margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%; */
+    border: 1px solid #ff0099;
+}
 .form-container input {
   flex: 0.3;
   padding: 10px;
   border: 1px solid #ff0099;
   border-radius: 10px;
   outline: none;
-  font-size: 1rem;
+  font-size: calc(.7rem + .5vw);
 }
 
 .form-container input::placeholder {
@@ -128,6 +137,16 @@
   display: inline-block;
 }
 /*==== Hero section end ====*/
+
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
 
 /*==== Footer ====*/
 .footer {

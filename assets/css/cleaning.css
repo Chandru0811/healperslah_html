@@ -59,6 +59,11 @@
 /*==== Hero  */
 
 /* Partner Section */
+/* @media screen and (min-width: 2000px) {
+    .container-fluid{
+        max-width: 1320px;
+    }
+} */
 .partner_top {
   width: 100%;
   text-align: center;
@@ -83,13 +88,14 @@
   color: #ff4397;
 }
 /* Form Container */
-.form-container {
+.form-container .card {
   /* margin: 20px auto;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 90%; */
+    border: 1px solid #ff0099;
 }
 
 .form-container input {
@@ -98,7 +104,7 @@
   border: 1px solid #ff0099;
   border-radius: 10px;
   outline: none;
-  font-size: 1rem;
+  font-size: calc(.7rem + .5vw);
 }
 
 .form-container input::placeholder {
@@ -128,7 +134,7 @@
 /*==== package section ====*/
 .custom-card {
   border: #ff4397 1px solid;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 .custom-badge {
   color: rgb(255, 255, 255);
@@ -220,12 +226,15 @@
     right: -6%;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 768px) {
-  .p-fs {
-    font-size: small;
-  }
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .p-fs {
+        font-size: calc(8px + 1vw);
+    }
+    .package-p-tag {
+        font-size: calc(0.59rem + 0.7vw);
+      }
 }
-@media screen and (min-width: 769px) and (max-width: 980px) {
+@media screen and (min-width: 767px) and (max-width: 980px) {
   .p-fs {
     font-size: small;
   }
@@ -270,7 +279,6 @@
 }
 
 .p-fs {
-  font-size: 14px;
   font-weight: 400;
 }
 
@@ -304,7 +312,7 @@
   color: #333;
 
   border-radius: 5px !important;
-  border: #ffc4de 0.5px solid;
+  border: #ff96c4 0.5px solid;
 }
 .accordion-button:focus {
   border: #ff4397 1px solid;

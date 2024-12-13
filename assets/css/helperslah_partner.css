@@ -85,22 +85,22 @@
   color: #ff4397;
 }
 /* Form Container */
-.form-container {
+.form-container .card {
   /* margin: 20px auto;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  width: 90%; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%; */
+    border: 1px solid #ff0099;
 }
-
 .form-container input {
   flex: 0.3;
   padding: 10px;
   border: 1px solid #ff0099;
   border-radius: 10px;
   outline: none;
-  font-size: 1rem;
+  font-size: calc(.7rem + .5vw);
 }
 
 .form-container input::placeholder {
