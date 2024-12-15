@@ -36,6 +36,7 @@
   color: aliceblue;
   font-size: calc(0.5rem + 0.4vw) !important;
 }
+
 .header .register_button {
   border-radius: 0px;
   padding-left: 15px;
@@ -46,6 +47,7 @@
   font-weight: 600;
   font-size: calc(0.7rem + 0.4vw);
 }
+
 .header .num {
   background-color: #0dc648;
 }
@@ -67,26 +69,28 @@
 .partner_top {
   width: 100%;
   text-align: center;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 147, 52, 0.7) 0%,
-      rgba(255, 147, 52, 0.7) 100%
-    ),
+      rgba(255, 147, 52, 0.7) 100%),
     url("../images/helper_partner_hero.webp"), no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
+
 .h1-tag {
   color: #ffffff;
 }
+
 .h2-tag {
   color: #ffffff;
   font-size: medium;
 }
+
 .text-color {
   color: #ff4397;
 }
+
 /* Form Container */
 .form-container .card {
   /* margin: 20px auto;
@@ -95,7 +99,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 90%; */
-    border: 1px solid #ff0099;
+  border: 1px solid #ff0099;
 }
 
 .form-container input {
@@ -136,15 +140,27 @@
   border: #ff4397 1px solid;
   /* border-radius: 25px; */
 }
+
 .custom-badge {
   color: rgb(255, 255, 255);
   background-color: #ff4397;
   border-radius: 0;
   /* margin: 10px 0px;
     padding: 10px 8px; */
-  font-size: small;
+  font-size: calc(0.55rem + 0.4vw);
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+}
+
+.custom-badge-left {
+  color: rgb(255, 255, 255);
+  background-color: #1966c4;
+  border-radius: 0;
+  /* margin: 10px 0px;
+    padding: 10px 8px; */
+  font-size: calc(0.55rem + 0.4vw);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .package-p-tag {
@@ -178,10 +194,12 @@
 .stpes-heading {
   font-size: calc(3rem + 1vw);
 }
+
 .image-cont {
   height: 90%;
   position: relative;
 }
+
 .image_decs_left {
   background-color: #ffffff;
   border: #ff4397 1px solid;
@@ -193,6 +211,7 @@
   bottom: -6%;
   left: -10%;
 }
+
 .img-fluid.custom-border {
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -200,6 +219,7 @@
   width: 100%;
   object-fit: cover;
 }
+
 .image_decs_right {
   background-color: #ffffff;
   border: #ff4397 1px solid;
@@ -219,6 +239,7 @@
     bottom: -7%;
     left: -6%;
   }
+
   .image_decs_right {
     width: 110px;
     height: 60px;
@@ -226,14 +247,17 @@
     right: -6%;
   }
 }
+
 @media screen and (min-width: 300px) and (max-width: 767px) {
-    .p-fs {
-        font-size: calc(8px + 1vw);
-    }
-    .package-p-tag {
-        font-size: calc(0.59rem + 0.7vw);
-      }
+  .p-fs {
+    font-size: calc(8px + 1vw);
+  }
+
+  .package-p-tag {
+    font-size: calc(0.59rem + 0.7vw);
+  }
 }
+
 @media screen and (min-width: 767px) and (max-width: 980px) {
   .p-fs {
     font-size: small;
@@ -245,12 +269,14 @@
   /* height: 30vh; */
   background-color: #e10064;
 }
+
 .footer-title {
   font-weight: bolder;
   position: relative;
   color: #ffffff;
   top: 2px;
 }
+
 .footer-links .links {
   margin: 30px 0;
   padding: 5px;
@@ -294,7 +320,7 @@
   color: #FF4397;
 }
 
-.offer_sub_content{
+.offer_sub_content {
   color: #565656;
   font-size: 14px;
 }
@@ -304,9 +330,11 @@
   color: #ff4397;
   font-weight: bold;
 }
+
 .accordion-item {
   border-radius: 5px;
 }
+
 .accordion-button {
   background-color: #ffffff;
   color: #333;
@@ -314,12 +342,14 @@
   border-radius: 5px !important;
   border: #ff96c4 0.5px solid;
 }
+
 .accordion-button:focus {
   border: #ff4397 1px solid;
   border-color: #ff4397;
   /* box-shadow: 0 0 0 .20rem #e100657a; */
   box-shadow: none;
 }
+
 .accordion-button:not(.collapsed) {
   background-color: #ff4397;
   color: #fff;
@@ -330,9 +360,11 @@
   background-color: #ffffff;
   border: 0.5px solid #efefef;
 }
+
 .accordion-button::after {
   background-image: url("../images/plus.png");
 }
+
 .accordion-button:not(.collapsed)::after {
   background-image: url("../images/mins.png");
 }
@@ -347,8 +379,8 @@
   padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;
-  border: 1px solid #ff4397; 
-  transition: all 0.3s ease; 
+  border: 1px solid #ff4397;
+  transition: all 0.3s ease;
 }
 
 .book_now_2:hover {
@@ -356,14 +388,14 @@
   color: #ff4397;
 }
 
-.book_now_2:active, 
+.book_now_2:active,
 .book_now_2:focus {
   background-color: #ffffff !important;
   color: #ff4397 !important;
-  outline: none !important; 
-  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important; 
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
 }
+
 .bottom_card_ptag {
   font-size: small;
 }
-
