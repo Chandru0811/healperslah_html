@@ -34,20 +34,23 @@
 
 .navbar-nav .nav-link.active {
   color: aliceblue;
-  font-size: calc(0.5rem + 0.4vw) !important;
+  font-size: calc(0.5rem + 0.5vw) !important;
 }
-
+@media (min-width:992px) and (max-width:1064px) {
+  .navbar-nav .nav-link.active {
+    font-size: calc(0.5rem + 0.4vw) !important;
+  }
+  .header .register_button {
+    padding: 10px 0px !important;
+  }
+}
 .header .register_button {
   border-radius: 0px;
-  padding-left: 15px;
   /* background-color: aquamarine; */
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 15px ;
   font-weight: 600;
   font-size: calc(0.7rem + 0.4vw);
 }
-
 .header .num {
   background-color: #0dc648;
 }
@@ -167,6 +170,14 @@
   font-size: calc(0.55rem + 0.4vw);
 }
 
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
 .book-now-btn {
   background-color: #ff4397;
   /* border-radius: 3px; */

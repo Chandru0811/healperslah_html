@@ -34,15 +34,20 @@
 
 .navbar-nav .nav-link.active {
   color: aliceblue;
-  font-size: calc(0.5rem + 0.4vw) !important;
+  font-size: calc(0.5rem + 0.5vw) !important;
+}
+@media (min-width:992px) and (max-width:1064px) {
+  .navbar-nav .nav-link.active {
+    font-size: calc(0.5rem + 0.4vw) !important;
+  }
+  .header .register_button {
+    padding: 10px 0px !important;
+  }
 }
 .header .register_button {
   border-radius: 0px;
-  padding-left: 15px;
   /* background-color: aquamarine; */
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 15px ;
   font-weight: 600;
   font-size: calc(0.7rem + 0.4vw);
 }
@@ -150,7 +155,14 @@
 .package-p-tag {
   font-size: calc(0.55rem + 0.4vw);
 }
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.hover-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
 .book-now-btn {
   background-color: #ff4397;
   /* border-radius: 3px; */
@@ -240,27 +252,8 @@
   }
 }
 
-/*==== Footer ====*/
-.footer {
-  /* height: 30vh; */
-  background-color: #e10064;
-}
-.footer-title {
-  font-weight: bolder;
-  position: relative;
-  color: #ffffff;
-  top: 2px;
-}
-.footer-links .links {
-  margin: 30px 0;
-  padding: 5px;
-  cursor: pointer;
-}
-
-.footer-links .links2 {
-  margin: 30px 0;
-  padding: 0px;
-  cursor: pointer;
+.p-fs {
+  font-weight: 400;
 }
 
 .price_green_badge {
@@ -278,9 +271,7 @@
   font-size: 14px;
 }
 
-.p-fs {
-  font-weight: 400;
-}
+
 
 .offer-heading {
   font-size: 34px;
@@ -365,5 +356,29 @@
 }
 .bottom_card_ptag {
   font-size: small;
+}
+
+
+/*==== Footer ====*/
+.footer {
+  /* height: 30vh; */
+  background-color: #e10064;
+}
+.footer-title {
+  font-weight: bolder;
+  position: relative;
+  color: #ffffff;
+  top: 2px;
+}
+.footer-links .links {
+  margin: 30px 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.footer-links .links2 {
+  margin: 30px 0;
+  padding: 0px;
+  cursor: pointer;
 }
 

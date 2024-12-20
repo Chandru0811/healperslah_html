@@ -24,7 +24,7 @@
 }
 
 .header {
-  border-bottom: 0.5px solid #e1e1e1;
+  border-bottom: 0.5px solid #ffffff;
   background: #e10064;
   position: sticky;
   width: 100%;
@@ -34,20 +34,26 @@
 
 .navbar-nav .nav-link.active {
   color: aliceblue;
-  font-size: calc(0.5rem + 0.4vw) !important;
+  font-size: calc(0.5rem + 0.5vw) !important;
+}
+@media (min-width:992px) and (max-width:1064px) {
+  .navbar-nav .nav-link.active {
+    font-size: calc(0.5rem + 0.4vw) !important;
+  }
+  .header .register_button {
+    padding: 10px 0px !important;
+  }
 }
 .header .register_button {
   border-radius: 0px;
-  padding-left: 15px;
   /* background-color: aquamarine; */
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 15px ;
   font-weight: 600;
   font-size: calc(0.7rem + 0.4vw);
 }
 .header .num {
   background-color: #0dc648;
+  /* padding: 14.5px 0px; */
 }
 
 .header .nav-link {
@@ -77,6 +83,9 @@
   font-weight: 600;
 }
 
+.text-color {
+  color: #ff4397;
+}
 .book-now-btn {
   background-color: #ff4397;
   /* border-radius: 3px; */
@@ -100,7 +109,13 @@
   box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
 }
 .custom-check {
-  right: 5%;
+  position: absolute;
+  right: 0%;
+}
+@media  (min-width:320px) and (max-width:1024px) {
+  .custom-check {
+    right: -15%;
+  }
 }
 .custom-check:checked {
   background-color: #ff4397 !important;
@@ -120,18 +135,28 @@
   /* font-size: 12px; */
   color: gray;
 }
-input[type="date"]::-webkit-datetime-edit-text {
-  color: grey;
+
+input[type="date"] {
+  text-align: left; 
+}
+input[type="date"] {
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+input[type="date"] {
+  color: gray;
+}
+input[type="date"].has-value {
+  color: black;
 }
 input[type="date"]::-webkit-datetime-edit-month-field,
 input[type="date"]::-webkit-datetime-edit-day-field,
 input[type="date"]::-webkit-datetime-edit-year-field {
-  color: grey;
+  color: inherit;
 }
 
-/* input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(1); 
-} */
 @media screen and (min-width: 300px) and (max-width: 700px) {
   .custom-input {
     width: 100% !important;
@@ -195,7 +220,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   right: -11%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .image_decs_left {
     width: 140px;
     height: 80px;
@@ -209,6 +234,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
     right: -7%;
   }
 }
+
 
 /* ====Accordion==== */
 .text-ff4397 {

@@ -26,7 +26,7 @@
 .header {
   border-bottom: 0.5px solid #e1e1e1;
   background: #e10064;
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 999;
@@ -34,20 +34,23 @@
 
 .navbar-nav .nav-link.active {
   color: aliceblue;
-  font-size: calc(0.5rem + 0.4vw) !important;
+  font-size: calc(0.5rem + 0.5vw) !important;
 }
-
+@media (min-width:992px) and (max-width:1064px) {
+  .navbar-nav .nav-link.active {
+    font-size: calc(0.5rem + 0.4vw) !important;
+  }
+  .header .register_button {
+    padding: 10px 0px !important;
+  }
+}
 .header .register_button {
   border-radius: 0px;
-  padding-left: 15px;
   /* background-color: aquamarine; */
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 15px ;
   font-weight: 600;
   font-size: calc(0.7rem + 0.4vw);
 }
-
 .header .num {
   background-color: #0dc648;
 }
@@ -87,9 +90,9 @@
 /* Form Container */
 .form-container .card {
   /* margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white; */
+    border-radius: 12px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 90%; */
     border: 1px solid #ff0099;
@@ -101,6 +104,7 @@
   border-radius: 10px;
   outline: none;
   font-size: calc(.7rem + .5vw);
+  max-width: 90%;
 }
 
 .form-container input::placeholder {
