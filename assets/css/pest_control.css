@@ -158,10 +158,10 @@
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 .book-now-btn {
-  background-color: #ff4397;
-  /* border-radius: 3px; */
+  background-color: #ffffff;
+  /* / border-radius: 3px; /   */
   padding: 16px 50px;
-  color: #ffffff;
+  color: #ff4397;
   font-weight: 700;
   border: 1px solid #ff4397;
   transition: all 0.3s ease;
@@ -187,7 +187,8 @@
   padding: 3px 7px;
   border-radius: 5px;
   position: absolute;
-  top: -10px;
+  top: -19px;
+  right: -6px;
 }
 
 /* ===steps=== */

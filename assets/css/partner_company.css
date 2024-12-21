@@ -86,31 +86,6 @@
 .text-color {
   color: #ff4397;
 }
-/* Form Container */
-.form-container .card {
-  /* margin: 20px auto;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      padding: 30px;
-      width: 90%; */
-  border: 1px solid #ff0099;
-}
-
-.form-container button {
-  background-color: #ff0099;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  flex: none;
-}
-
-.form-container button:hover {
-  background-color: #e50088;
-}
 
 .link_img {
   display: inline-block;
@@ -118,7 +93,14 @@
 }
 
 /*==== Application Section Start  ====*/
-
+.custum-width {
+width: 87%;
+}
+@media (max-width:767px) {
+  .custum-width {
+    width: 100%;
+    } 
+}
 .form-container input {
   flex: 0.3;
   padding: 10px;
