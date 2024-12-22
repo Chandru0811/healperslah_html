@@ -153,7 +153,7 @@
 }
 
 .package-p-tag {
-  font-size: calc(0.55rem + 0.4vw);
+  font-size: calc(0.6rem + 0.5vw);
 }
 .hover-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -238,12 +238,20 @@
     right: -6%;
   }
 }
+.pink_image_width{
+  width: 20px;
+  /* padding-top: 3.5px; */
+}
 @media screen and (min-width: 300px) and (max-width: 767px) {
     .p-fs {
         font-size: calc(8px + 1vw);
     }
     .package-p-tag {
-        font-size: calc(0.59rem + 0.7vw);
+        font-size: calc(0.65rem + 0.7vw);
+      }
+    .pink_image_width{
+        width: 17px;
+        /* padding-top: 3.5px; */
       }
 }
 @media screen and (min-width: 767px) and (max-width: 980px) {

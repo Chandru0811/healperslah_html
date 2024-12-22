@@ -87,15 +87,6 @@
   color: #ff4397;
 }
 /* Form Container */
-.form-container .card {
-  /* margin: 20px auto;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      padding: 30px;
-      width: 90%; */
-  border: 1px solid #ff0099;
-}
 
 .form-container input {
   flex: 0.3;
@@ -145,9 +136,17 @@
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-
+.card-heading {
+  font-size: calc(0.8rem + 0.3vw);;
+}
 .package-p-tag {
   font-size: calc(0.55rem + 0.4vw);
+  padding-left: 3px;
+}
+@media (max-width: 767px) {
+  .card-heading {
+    font-size: calc(1rem + 0.5vw);;
+  }
 }
 .hover-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
