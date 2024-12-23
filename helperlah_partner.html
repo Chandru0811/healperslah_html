@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cloud ECS -Helperslah Partner</title>
+    <title>Helperslah Partner | Helperlah Singapore</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -116,10 +116,11 @@
               </div>
               <div class="col-md-5 col-12">
                 <input
-                  type="tel"
+                  type="text"
                   class="form-control my-3 form-control-lg w-100"
                   placeholder="Phone number"
                   aria-label="Phone number"
+                  id="phone-input"
                 />
               </div>
 
@@ -149,7 +150,7 @@
           />
         </div>
       </section>
-      <section class="container mt-5">
+      <section class="container my-5 pb-3">
         <div class="row">
           <div
             class="col-md-4 col-12 d-flex flex-column justify-content-start align-items-center"
@@ -227,10 +228,10 @@
       </section>
 
       <!--==== Image Section ====-->
-      <section class="Image_section container-fluid px-3">
+      <section class="Image_section container-fluid px-3 pt-5 mt-5">
         <div class="row mt-0 mt-md-5 px-0 px-md-3 px-lg-4">
           <div class="col-md-6 col-12 d-flex flex-column">
-            <div class="w-100 text-start mb-3 mb-md-5 mt-4 mt-md-0">
+            <div class="w-100 text-start mb-3 mt-4 mt-md-0">
               <h4 class="fs-3 fw-bold text-color">Requirements</h4>
             </div>
             <div>
@@ -365,6 +366,7 @@
             </div>
           </div>
         </div>
+        <!-- accordian -->
         <div class="container">
           <div class="row mt-0 mt-md-5">
             <div class="col-12 my-5 d-flex justify-content-center">
@@ -396,7 +398,7 @@
                       steps. <br />
                       1. Visit
                       <a
-                        class="text-decoration-none"
+                        class="text-decoration-none text-break"
                         href="./helperlah_partner.html"
                         >https://helperslah.com/helperlah_partner.html</a
                       >
@@ -429,8 +431,10 @@
                   >
                     <div class="accordion-body">
                       1. Singapore-registered company or Individuals with a
-                      valid working visa. <br /> 2. Age should be 18 years or above  <br /> 3.
-                      A smartphone  <br /> 4. Related experience
+                      valid working visa. <br />
+                      2. Age should be 18 years or above <br />
+                      3. A smartphone <br />
+                      4. Related experience
                     </div>
                   </div>
                 </div>
@@ -445,7 +449,8 @@
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                    3. Does this position offer opportunities for career advancement?
+                      3. Does this position offer opportunities for career
+                      advancement?
                     </button>
                   </h2>
                   <div
@@ -455,7 +460,9 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body">
-                      Helperlah helps you build an interesting and rewarding career.  From entry-level to executive, your potential is limitless with us.
+                      Helperlah helps you build an interesting and rewarding
+                      career. From entry-level to executive, your potential is
+                      limitless with us.
                     </div>
                   </div>
                 </div>
@@ -470,7 +477,7 @@
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                    4.	Do you provide flexible timings?
+                      4. Do you provide flexible timings?
                     </button>
                   </h2>
                   <div
@@ -480,7 +487,8 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body">
-                      Take control of your work-life balance with our flexible scheduling. Choose the hours that work best for you.
+                      Take control of your work-life balance with our flexible
+                      scheduling. Choose the hours that work best for you.
                     </div>
                   </div>
                 </div>
@@ -495,7 +503,7 @@
                       aria-expanded="false"
                       aria-controls="collapseFive"
                     >
-                    5.	Do you provide training for the service partners?
+                      5. Do you provide training for the service partners?
                     </button>
                   </h2>
                   <div
@@ -505,7 +513,11 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body">
-                      Our intensive training program empowers our service partners with the skills and knowledge required to excel in the industry.Our intensive training program empowers our service partners with the skills and knowledge required to excel in the industry.
+                      Our intensive training program empowers our service
+                      partners with the skills and knowledge required to excel
+                      in the industry.Our intensive training program empowers
+                      our service partners with the skills and knowledge
+                      required to excel in the industry.
                     </div>
                   </div>
                 </div>
@@ -801,11 +813,18 @@
       <hr class="text-light" />
       <div class="copyrights">
         <p class="text-center text-light m-0 pb-3">
-          2024 © Copyright Helperlah Pte Ltd. All Rights Reserved.
+          2024 © Copyright Dealslah Pte Ltd. All Rights Reserved
         </p>
       </div>
     </section>
     <!--==== Footer End ====-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <!-- <script>
+      const phoneInput = document.getElementById("phone-input");
+      phoneInput.addEventListener("input", (event) => {
+        event.target.value = event.target.value.replace(/[^0-9]/g, "");
+      });
+    </script> -->
   </body>
 </html>

@@ -150,6 +150,7 @@
 }
 .hover-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .hover-card:hover {
@@ -157,10 +158,10 @@
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 .book-now-btn {
-  background-color: #ffffff;
-  /* / border-radius: 3px; /   */
+  background-color: #ff4397;
+  border-radius: 8px;
   padding: 16px 50px;
-  color: #ff4397;
+  color: #ffffff;
   font-weight: 700;
   border: 1px solid #ff4397;
   transition: all 0.3s ease;
@@ -297,9 +298,10 @@
 .accordion-button {
   background-color: #ffffff;
   color: #333;
-
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-radius: 5px !important;
-  border: #ff96c4 0.5px solid;
+  border: #ffc4de 0.5px solid;
 }
 .accordion-button:focus {
   border: #ff4397 1px solid;
@@ -330,7 +332,7 @@
 
 .book_now_2 {
   background-color: #ffffff;
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;
@@ -348,7 +350,7 @@
   background-color: #ffffff !important;
   color: #ff4397 !important;
   outline: none !important;
-  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(255, 67, 151, 0.5) !important;
 }
 .bottom_card_ptag {
   font-size: small;

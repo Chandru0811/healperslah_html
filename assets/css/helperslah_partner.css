@@ -109,6 +109,7 @@
 
 .form-container input::placeholder {
   color: grey;
+  font-size: small;
 }
 
 .form-container button {
@@ -130,73 +131,6 @@
   display: inline-block;
   width: 100px;
 }
-
-/* .container.banner_middle_title {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-} */
-
-/* .banner_midle {
-  flex: 1 1 calc(33.333% - 20px);
- 
-  flex-direction: column;
- 
-  flex-grow: 1;
- 
-  text-align: center;
-
-  align-items: center;
-  
-}
-
-.banner_midle_tittle {
-  font-size: 1.5rem;
-  margin-top: 15px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.feature_p {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 10px;
-  padding: 0 20px;
-  color: #000000;
- 
-}
-
-@media (max-width: 768px) {
-  .banner_midle {
-    flex: 1 1 calc(50% - 20px);
-   
-    max-width: calc(50% - 20px);
-  }
-}
-
-@media (max-width: 480px) {
-  .banner_midle {
-    flex: 1 1 100%;
-   
-    max-width: 100%;
-  }
-
-  .banner_middle_image {
-    max-width: 80px;
-   
-  }
-
-  .banner_midle_tittle {
-    font-size: 1rem;
-    
-  }
-
-  .feature_p {
-    font-size: 0.8rem;
-   
-  }
-} */
 
 /*==== Image section ====*/
 .image-cont {
@@ -232,7 +166,21 @@
   right: -11%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width:1024px) {
+  .image_decs_left {
+    width: 140px;
+    height: 80px;
+    bottom: -10%;
+    left: -11%;
+  }
+  .image_decs_right {
+    width: 140px;
+    height: 80px;
+    bottom: -10%;
+    right: -11%;
+  }
+}
+/* @media (min-width: 767px) and (max-width:1024px) {
   .image_decs_left {
     width: 140px;
     height: 80px;
@@ -245,7 +193,7 @@
     bottom: -10%;
     right: -7%;
   }
-}
+} */
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .p-fs {
     font-size: small;
@@ -268,6 +216,8 @@
 .accordion-button {
   background-color: #ffffff;
   color: #333;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-radius: 5px !important;
   border: #ffc4de 0.5px solid;
 }
@@ -300,7 +250,7 @@
 
 .sign_up_btn {
   background-color: #ffffff;
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;

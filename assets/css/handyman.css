@@ -108,6 +108,7 @@
 
 .form-container input::placeholder {
   color: grey;
+  font-size: small;
 }
 
 .form-container button {
@@ -152,6 +153,7 @@
 }
 .hover-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .hover-card:hover {
@@ -211,9 +213,10 @@
 .accordion-button {
   background-color: #ffffff;
   color: #333;
-
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-radius: 5px !important;
-  border: #ff96c4 0.5px solid;
+  border: #ffc4de 0.5px solid;
 }
 .accordion-button:focus {
   border: #ff4397 1px solid;
