@@ -163,13 +163,13 @@
   box-shadow: 0 0 0 0.2rem #e100657a;
 }
 
-/* input[type="date"] {
+input[type="date"] {
   padding: 0.5em;
   font-family: inherit;
   font-size: inherit;
   box-sizing: border-box;
-} */
-/* input[type="date"] {
+}
+input[type="date"] {
   color: gray;
 }
 input[type="date"].has-value {
@@ -179,7 +179,7 @@ input[type="date"]::-webkit-datetime-edit-month-field,
 input[type="date"]::-webkit-datetime-edit-day-field,
 input[type="date"]::-webkit-datetime-edit-year-field {
   color: inherit;
-} */
+}
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
   .custom-input {
