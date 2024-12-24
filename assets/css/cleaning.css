@@ -231,13 +231,13 @@
     width: 140px;
     height: 80px;
     bottom: -10%;
-    left: -11%;
+    left: -9%;
   }
   .image_decs_right {
     width: 140px;
     height: 80px;
     bottom: -10%;
-    right: -11%;
+    right: -9%;
   }
 }
 @media (min-width: 767px) and (max-width:1024px) {
