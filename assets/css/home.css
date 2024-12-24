@@ -17,11 +17,8 @@
   .navbar-toggler .button {
     max-width: 150px;
   }
-
-  .button {
-    max-width: 200px;
-  }
 }
+
 
 .header {
   border-bottom: 0.5px solid #ffffff;
@@ -363,7 +360,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   cursor: pointer;
 }
 
-/* ===scroll to top === */
+/* / ===scroll to top === / */
 
 .button {
   position: fixed;
@@ -382,6 +379,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   cursor: pointer;
   transition-duration: 0.3s;
   overflow: hidden;
+  z-index: 999;
 }
 
 .svgIcon {
@@ -393,7 +391,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   fill: rgb(255, 255, 255);
 }
 
-.button:hover :active {
+.button:hover {
   width: 140px;
   border-radius: 50px;
   transition-duration: 0.3s;
@@ -401,8 +399,8 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   align-items: center;
 }
 
-.button:hover :active .svgIcon {
-  /* width: 20px; */
+.button:hover .svgIcon {
+  /* / width: 20px; / */
   transition-duration: 0.3s;
   transform: translateY(-200%);
 }
@@ -412,7 +410,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   bottom: -20px;
   content: "Back to Top";
   color: white;
-  /* transition-duration: .3s; */
+  /* / transition-duration: .3s; / */
   font-size: 0px;
 }
 
@@ -420,7 +418,43 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   font-size: 13px;
   opacity: 1;
   bottom: unset;
-  /* transform: translateY(-30px); */
+  /* / transform: translateY(-30px); / */
   transition-duration: 0.3s;
 }
 
+  @media screen and (max-width: 786px) and (min-width: 320px) {
+  .button {
+    max-width: 30px;
+    max-height: 30px;
+    content: none !important;
+    
+  }
+  
+  .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: #ff4397;
+    align-items: center;
+  }
+  
+  .button:hover .svgIcon {
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+  }
+  
+  .button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "↑" !important;
+    color: white;
+    font-size: 40px !important;
+  }
+  
+  .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    transition-duration: 0.3s;
+  }
+}
