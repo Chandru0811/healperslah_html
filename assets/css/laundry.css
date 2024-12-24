@@ -7,6 +7,22 @@
   font-family: "Poppins";
 }
 
+@media screen and (max-width: 450px) {
+  .common_space {
+    padding: 10px !important;
+    margin: 10px 0 !important;
+  }
+  .common_text {
+    padding: 10px !important;
+  }
+  .common_alignment {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
 /*==== Header Starts  ====*/
 
 @media screen and (max-width: 380px) and (min-width: 320px) {
@@ -378,4 +394,67 @@
   margin: 30px 0;
   padding: 0px;
   cursor: pointer;
+}
+
+/* / ===scroll to top === / */
+.button {
+  width: 40px;
+  height: 40px;
+  bottom: 10px;
+  right: 15px;
+  border-radius: 50%;
+  background-color: #ff4397;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(255, 67, 151, 0.5);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: fixed;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+@media (min-width: 786px) {
+  .button {
+    width: 50px;
+    height: 50px;
+  }
+  .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: #ff4397;
+    align-items: center;
+  }
+
+  .button:hover .svgIcon {
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+  }
+
+  .button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Back to Top";
+    color: white;
+    font-size: 0px;
+  }
+
+  .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    transition-duration: 0.3s;
+  }
 }

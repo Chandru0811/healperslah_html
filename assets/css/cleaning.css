@@ -7,6 +7,22 @@
   font-family: "Poppins";
 }
 
+@media screen and (max-width: 450px) {
+  .common_space {
+    padding: 10px !important;
+    margin: 10px 0 !important;
+  }
+  .common_text {
+    padding: 10px !important;
+  }
+  .common_alignment {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
 /*==== Header Starts  ====*/
 
 @media screen and (max-width: 380px) and (min-width: 320px) {
@@ -36,7 +52,7 @@
   color: aliceblue;
   font-size: calc(0.5rem + 0.5vw) !important;
 }
-@media (min-width:992px) and (max-width:1064px) {
+@media (min-width: 992px) and (max-width: 1064px) {
   .navbar-nav .nav-link.active {
     font-size: calc(0.5rem + 0.4vw) !important;
   }
@@ -47,7 +63,7 @@
 .header .register_button {
   border-radius: 0px;
   /* background-color: aquamarine; */
-  padding: 10px 15px ;
+  padding: 10px 15px;
   font-weight: 600;
   font-size: calc(0.7rem + 0.4vw);
 }
@@ -100,7 +116,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 90%; */
-    border: 1px solid #ff0099;
+  border: 1px solid #ff0099;
 }
 
 .form-container input {
@@ -109,7 +125,7 @@
   border: 1px solid #ff0099;
   border-radius: 10px;
   outline: none;
-  font-size: calc(.7rem + .5vw);
+  font-size: calc(0.7rem + 0.5vw);
 }
 
 .form-container input::placeholder {
@@ -162,8 +178,8 @@
 }
 
 .hover-card:hover {
-  transform: scale(1.05); 
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 .book-now-btn {
   background-color: #ff4397;
@@ -231,7 +247,7 @@
     width: 140px;
     height: 80px;
     bottom: -10%;
-    left: -9%;
+    left: -5%;
   }
   .image_decs_right {
     width: 140px;
@@ -240,7 +256,7 @@
     right: -9%;
   }
 }
-@media (min-width: 767px) and (max-width:1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .image_decs_left {
     width: 140px;
     height: 80px;
@@ -254,21 +270,21 @@
     right: -5%;
   }
 }
-.pink_image_width{
+.pink_image_width {
   width: 20px;
   /* padding-top: 3.5px; */
 }
 @media screen and (min-width: 300px) and (max-width: 767px) {
-    .p-fs {
-        font-size: calc(8px + 1vw);
-    }
-    .package-p-tag {
-        font-size: calc(0.65rem + 0.7vw);
-      }
-    .pink_image_width{
-        width: 17px;
-        /* padding-top: 3.5px; */
-      }
+  .p-fs {
+    font-size: calc(8px + 1vw);
+  }
+  .package-p-tag {
+    font-size: calc(0.65rem + 0.7vw);
+  }
+  .pink_image_width {
+    width: 17px;
+    /* padding-top: 3.5px; */
+  }
 }
 @media screen and (min-width: 767px) and (max-width: 980px) {
   .p-fs {
@@ -295,8 +311,6 @@
   font-size: 14px;
 }
 
-
-
 .offer-heading {
   font-size: 34px;
   font-weight: 700;
@@ -306,10 +320,10 @@
 .offer_sub_heading {
   font-size: 28px;
   font-weight: 700;
-  color: #FF4397;
+  color: #ff4397;
 }
 
-.offer_sub_content{
+.offer_sub_content {
   color: #565656;
   font-size: 14px;
 }
@@ -363,8 +377,8 @@
   padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;
-  border: 1px solid #ff4397; 
-  transition: all 0.3s ease; 
+  border: 1px solid #ff4397;
+  transition: all 0.3s ease;
 }
 
 .book_now_2:hover {
@@ -372,17 +386,16 @@
   color: #ff4397;
 }
 
-.book_now_2:active, 
+.book_now_2:active,
 .book_now_2:focus {
   background-color: #ffffff !important;
   color: #ff4397 !important;
-  outline: none !important; 
-  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important; 
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
 }
 .bottom_card_ptag {
   font-size: small;
 }
-
 
 /*==== Footer ====*/
 .footer {
@@ -407,3 +420,65 @@
   cursor: pointer;
 }
 
+/* / ===scroll to top === / */
+.button {
+  width: 40px;
+  height: 40px;
+  bottom: 10px;
+  right: 15px;
+  border-radius: 50%;
+  background-color: #ff4397;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(255, 67, 151, 0.5);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: fixed;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+@media (min-width: 786px) {
+  .button {
+    width: 50px;
+    height: 50px;
+  }
+  .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: #ff4397;
+    align-items: center;
+  }
+
+  .button:hover .svgIcon {
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+  }
+
+  .button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Back to Top";
+    color: white;
+    font-size: 0px;
+  }
+
+  .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    transition-duration: 0.3s;
+  }
+}
