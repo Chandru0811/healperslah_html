@@ -217,7 +217,10 @@
 .clean-text {
   font-size: 14px;
 }
-
+.custom-border{
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
 /* ====Accordion==== */
 .text-ff4397 {
   color: #ff4397;
@@ -263,7 +266,7 @@
 
 .book_now_2 {
   background-color: #ffffff;
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 15px 40px;
   color: #ff4397;
   font-weight: 700;

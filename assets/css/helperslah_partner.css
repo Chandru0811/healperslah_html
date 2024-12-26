@@ -132,6 +132,10 @@
 }
 
 /*==== Image section ====*/
+.custom-border {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
 .image-cont {
   height: 90%;
   position: relative;
