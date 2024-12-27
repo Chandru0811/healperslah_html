@@ -82,20 +82,13 @@
 }
 @media (max-width:991px) {
   .navbar-nav .dropdown_li ul {
-    left: 30%;
-    flex-direction: column;
-    height: 70vh;
-    overflow: auto;
-  }
-}
-@media (max-width:500px) {
-  .navbar-nav .dropdown_li ul {
     left: 0%;
     flex-direction: column;
     height: 70vh;
     overflow: auto;
   }
 }
+
 .navbar-nav .dropdown_li:hover > ul,
 .navbar-nav .dropdown_li ul:hover {
   visibility: visible;

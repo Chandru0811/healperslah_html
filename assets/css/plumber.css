@@ -82,20 +82,13 @@
   }
   @media (max-width:991px) {
     .navbar-nav .dropdown_li ul {
-      left: 30%;
-      flex-direction: column;
-      height: 70vh;
-      overflow: auto;
-    }
-  }
-  @media (max-width:500px) {
-    .navbar-nav .dropdown_li ul {
       left: 0%;
       flex-direction: column;
       height: 70vh;
       overflow: auto;
     }
   }
+
   .navbar-nav .dropdown_li:hover > ul,
   .navbar-nav .dropdown_li ul:hover {
     visibility: visible;
@@ -163,6 +156,8 @@
   
   ul li ul li a {
     transition: all 0.5s ease;
+    padding-left: 8px;
+    border-left: 2px solid #ffffff;
   }
   
   /*==== Header Ends  ====*/
@@ -175,7 +170,7 @@
     background: linear-gradient(0deg,
             rgba(255, 147, 52, 0.7) 0%,
             rgba(255, 147, 52, 0.7) 100%),
-        url("../images/helper_partner_hero.webp"), no-repeat;
+        url("../images/plumber_herobg.webp"), no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;

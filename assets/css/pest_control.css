@@ -98,14 +98,6 @@
 }
 @media (max-width:991px) {
   .navbar-nav .dropdown_li ul {
-    left: 30%;
-    flex-direction: column;
-    height: 70vh;
-    overflow: auto;
-  }
-}
-@media (max-width:500px) {
-  .navbar-nav .dropdown_li ul {
     left: 0%;
     flex-direction: column;
     height: 70vh;
@@ -179,6 +171,8 @@ a:hover {
 
 ul li ul li a {
   transition: all 0.5s ease;
+  padding-left: 8px;
+  border-left: 2px solid #ffffff;
 }
 
 /*==== Header Ends  ====*/
@@ -193,7 +187,7 @@ ul li ul li a {
       rgba(255, 147, 52, 0.7) 0%,
       rgba(255, 147, 52, 0.7) 100%
     ),
-    url("../images/helper_partner_hero.webp"), no-repeat;
+    url("../images/pest_control_herobg.webp"), no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
