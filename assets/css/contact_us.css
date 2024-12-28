@@ -174,7 +174,7 @@ ul li ul li a {
 
 /* Partner Section */
 .partner_top {
-  height: 78vh;
+  /* height: 78vh; */
   width: 100%;
   text-align: center;
   background: linear-gradient(0deg, rgba(255, 147, 52, 0.7) 0%, rgba(255, 147, 52, 0.7) 100%), url(../images/contactus_herobg.webp), no-repeat;
