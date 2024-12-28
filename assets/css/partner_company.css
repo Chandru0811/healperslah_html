@@ -84,8 +84,16 @@
   .navbar-nav .dropdown_li ul {
     left: 0%;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
     overflow: auto;
+    padding: 10px 20px;
+  }
+  .navbar-nav .dropdown_li ul li a {
+    font-size: small;
+  }
+  .navbar-nav .dropdown_li ul li {
+    padding-right: 0px !important;
+    margin-bottom: 13px !important;
   }
 }
 
