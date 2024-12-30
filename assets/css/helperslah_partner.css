@@ -170,8 +170,12 @@ ul li ul li a {
 
 /*==== Header Ends  ====*/
 
-/*==== Hero  */
-
+/*==== Hero  ====*/
+@media (min-width:1600px) {
+  .Image_section {
+    width: 1400px;
+  }
+}
 /* Partner Section */
 .partner_top {
   width: 100%;
@@ -181,7 +185,7 @@ ul li ul li a {
       rgba(255, 147, 52, 0.7) 0%,
       rgba(255, 147, 52, 0.7) 100%
     ),
-    url("../images/helper_partner_herobg.webp"), no-repeat;
+    url("../images/helper_partner_herobg7.avif"), no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

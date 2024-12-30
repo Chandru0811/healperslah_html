@@ -96,7 +96,7 @@
       margin-bottom: 13px !important;
     }
   }
- 
+
   .navbar-nav .dropdown_li:hover > ul,
   .navbar-nav .dropdown_li ul:hover {
     visibility: visible;
@@ -169,6 +169,7 @@
   }
   
   /*==== Header Ends  ====*/
+
 /*==== Hero  ====*/
 /* Partner Section */
 .partner_top {
@@ -177,7 +178,7 @@
     background: linear-gradient(0deg,
             rgba(255, 147, 52, 0.7) 0%,
             rgba(255, 147, 52, 0.7) 100%),
-        url("../images/movers_heropg.avif"), no-repeat;
+        url("../images/plumber_herobg.webp"), no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -230,6 +231,99 @@
 .link_img {
     display: inline-block;
     width: 100px;
+}
+
+/*==== package section ====*/
+.custom-card {
+    border: #ff4397 1px solid;
+    /* border-radius: 25px; */
+}
+
+.custom-badge {
+    color: rgb(255, 255, 255);
+    background-color: #ff4397;
+    border-radius: 0;
+    /* margin: 10px 0px;
+      padding: 10px 8px; */
+    font-size: small;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.card-heading {
+    font-size: calc(0.8rem + 0.3vw);
+    white-space: nowrap;
+}
+
+.package-p-tag {
+    font-size: calc(0.55rem + 0.4vw);
+    padding-left: 3px;
+}
+
+@media (max-width: 767px) {
+    .card-heading {
+        font-size: calc(1rem + 0.5vw);
+    }
+}
+
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.price_green_badge {
+    background-color: #10c44c;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 3px 7px;
+    border-radius: 5px;
+    position: absolute;
+    top: -23px;
+}
+@media (min-width: 300px) and (max-width:991px) {
+    .price_green_badge {
+        right: 0;
+    }
+  
+}
+
+.book-now-btn {
+    background-color: #ff4397;
+    /* / border-radius: 3px; /   */
+    padding: 16px 50px;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #ff4397;
+    transition: all 0.3s ease;
+}
+
+.book-now-btn:hover {
+    background-color: #ff4397;
+    color: #ffffff;
+}
+
+.book-now-btn:active,
+.book-now-btn:focus {
+    background-color: #ff4397 !important;
+    color: #ffffff !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
+}
+
+
+/* ===steps=== */
+.stpes-heading {
+    font-size: calc(3rem + 1vw);
+}
+
+.clean-text {
+    font-size: 14px;
 }
 
 /* ===image container ==== */
@@ -307,18 +401,6 @@
     }
 }
 
-
-
-/* ===steps=== */
-.stpes-heading {
-    font-size: calc(3rem + 1vw);
-}
-
-.clean-text {
-    font-size: 14px;
-}
-
-
 /* ===we offer */
 .offer-heading {
     font-size: 34px;
@@ -332,6 +414,11 @@
     color: #ff4397;
 }
 
+.offer_sub_contents {
+    font-weight: 400;
+    color: #ff4397;
+}
+
 .offer_sub_content {
     color: #565656;
     font-size: 14px;
@@ -340,129 +427,6 @@
 .border {
     border-radius: 10px;
 }
-
-
-/*==== Image Section ====*/
-.custom-input {
-    width: 20% !important;
-    border: #ff4397 1px solid;
-}
-
-.custom-input::placeholder {
-    /* font-size: 12px; */
-    color: gray;
-}
-
-input[type="date"] {
-    text-align: left;
-}
-
-input[type="date"] {
-    padding: 0.5em;
-    font-family: inherit;
-    font-size: inherit;
-    box-sizing: border-box;
-}
-
-input[type="date"] {
-    color: gray;
-}
-
-input[type="date"].has-value {
-    color: black;
-}
-
-input[type="date"]::-webkit-datetime-edit-month-field,
-input[type="date"]::-webkit-datetime-edit-day-field,
-input[type="date"]::-webkit-datetime-edit-year-field {
-    color: inherit;
-}
-
-@media screen and (min-width: 300px) and (max-width: 700px) {
-    .custom-input {
-        width: 100% !important;
-    }
-
-    .p-fs {
-        font-size: small;
-    }
-}
-
-/* @media screen and (min-width: 700px) and (max-width: 768px) {
-  .custom-input {
-    width: 100% !important;
-  }
- 
-} */
-@media screen and (min-width: 769px) and (max-width: 980px) {
-    .p-fs {
-        font-size: small;
-    }
-}
-
-.custom-input:focus {
-    border: #ff4397 1px solid;
-    border-color: #ff4397;
-    box-shadow: 0 0 0 0.2rem #e100657a;
-}
-
-.custom-card {
-    border: #ff4397 1px solid;
-    box-shadow: 2px 2px 2px 0px #e1006542;
-}
-
-.image-cont {
-    height: 90%;
-    position: relative;
-}
-
-.image_decs_left {
-    background-color: #ffffff;
-    border: #ff4397 1px solid;
-    width: 250px;
-    height: 125px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: absolute;
-    bottom: -9%;
-    left: -11%;
-}
-
-.img-fluid.custom-border {
-    /* border-radius: 3px; */
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-}
-
-.image_decs_right {
-    background-color: #ffffff;
-    border: #ff4397 1px solid;
-    width: 250px;
-    height: 125px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: absolute;
-    bottom: -9%;
-    right: -11%;
-}
-
-@media (max-width: 1024px) {
-    .image_decs_left {
-        width: 140px;
-        height: 80px;
-        bottom: -10%;
-        left: -7%;
-    }
-
-    .image_decs_right {
-        width: 140px;
-        height: 80px;
-        bottom: -10%;
-        right: -7%;
-    }
-}
-
 
 /* ====Accordion==== */
 .text-ff4397 {
@@ -479,7 +443,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
     color: #333;
 
     border-radius: 5px !important;
-    border: #ffc4de 0.5px solid;
+    border: #ff96c4 0.5px solid;
 }
 
 .accordion-button:focus {
@@ -562,36 +526,6 @@ input[type="date"]::-webkit-datetime-edit-year-field {
     margin: 30px 0;
     padding: 0px;
     cursor: pointer;
-}
-
-/* ===scroll to top === */
-
-.button {
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #ff4397;
-    border: none;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 0px 4px rgba(255, 67, 151, 0.5);
-    cursor: pointer;
-    transition-duration: 0.3s;
-    overflow: hidden;
-}
-
-.svgIcon {
-    width: 12px;
-    transition-duration: 0.3s;
-}
-
-.svgIcon path {
-    fill: rgb(255, 255, 255);
 }
 
 .button {

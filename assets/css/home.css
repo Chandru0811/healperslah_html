@@ -195,6 +195,12 @@ ul li ul li a {
       max-width: 540px;
   }
 } */
+
+@media (min-width:1600px) {
+  .custom-fluid {
+    width: 1400px;
+  }
+}
 /*==== Home Section ====*/
 
 .img {
