@@ -7,7 +7,7 @@
   font-family: "Poppins";
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .common_space {
     padding: 10px !important;
     margin: 10px 0 !important;
@@ -21,7 +21,7 @@
     justify-content: center !important;
     align-items: center !important;
   }
-}
+} */
 
 /*==== Header Starts ====*/
 
@@ -265,6 +265,7 @@ ul li ul li a {
 .custom-card {
   border: #ff4397 1px solid;
   /* border-radius: 25px; */
+  height: 70%;
 }
 .custom-badge {
   color: rgb(255, 255, 255);
@@ -311,6 +312,9 @@ ul li ul li a {
   outline: none !important;
   box-shadow: 0 0 0 2px rgba(255, 67, 151, 0.5) !important;
 }
+.w-15{
+  width: 15px;
+}
 
 /* ===steps=== */
 .stpes-heading {
@@ -351,6 +355,10 @@ ul li ul li a {
 }
 
 @media (max-width: 766px) {
+
+  .image-cont {
+    height: 100%;
+  }
   .image_decs_left {
     width: 140px;
     height: 80px;
@@ -382,7 +390,13 @@ ul li ul li a {
   width: 20px;
   /* padding-top: 3.5px; */
 }
+.w-70{
+  width: 75%;
+}
 @media screen and (min-width: 300px) and (max-width: 767px) {
+  .w-70{
+    width: 100%;
+  }
   .p-fs {
     font-size: calc(8px + 1vw);
   }
@@ -390,7 +404,7 @@ ul li ul li a {
     font-size: calc(0.65rem + 0.7vw);
   }
   .pink_image_width {
-    width: 17px;
+    width: 14px;
     /* padding-top: 3.5px; */
   }
 }
@@ -434,6 +448,11 @@ ul li ul li a {
 .offer_sub_content {
   color: #565656;
   font-size: 14px;
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .offer_sub_heading{
+     font-size: calc(1rem + 1.5vw);
+  }
 }
 
 /* ====Accordion==== */

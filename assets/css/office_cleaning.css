@@ -7,7 +7,7 @@
   font-family: "Poppins";
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .common_space {
     padding: 10px !important;
     margin: 10px 0 !important;
@@ -21,7 +21,7 @@
     justify-content: center !important;
     align-items: center !important;
   }
-}
+} */
 
 /*==== Header Starts ====*/
 
@@ -262,9 +262,19 @@ ul li ul li a {
 }
 
 /*==== package section ====*/
+
 .custom-card {
   border: #ff4397 1px solid;
   /* border-radius: 25px; */
+  height: 75%;
+}
+@media (min-width: 1600px) {
+  .custom-card {
+    height: 79%;
+  }
+}
+.w-15{
+  width: 15px;
 }
 .custom-badge {
   color: rgb(255, 255, 255);
@@ -351,6 +361,15 @@ ul li ul li a {
 }
 
 @media (max-width: 766px) {
+  .price_green_badge{
+    top:1px !important;
+  }
+  .custom-card {
+    height: 76%;
+  }
+  .image-cont {
+    height: 100%;
+  }
   .image_decs_left {
     width: 140px;
     height: 80px;
@@ -382,7 +401,13 @@ ul li ul li a {
   width: 20px;
   /* padding-top: 3.5px; */
 }
+.w-70{
+  width: 75%;
+}
 @media screen and (min-width: 300px) and (max-width: 767px) {
+  .w-70{
+    width: 100%;
+  }
   .p-fs {
     font-size: calc(8px + 1vw);
   }
@@ -434,6 +459,11 @@ ul li ul li a {
 .offer_sub_content {
   color: #565656;
   font-size: 14px;
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .offer_sub_heading{
+     font-size: calc(1rem + 1.5vw);
+  }
 }
 
 /* ====Accordion==== */

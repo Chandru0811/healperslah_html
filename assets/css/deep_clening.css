@@ -400,8 +400,13 @@ ul li ul li a {
     right: -5%;
   }
 }
-
+.w-70{
+  width: 75%;
+}
 @media screen and (min-width: 300px) and (max-width: 767px) {
+  .w-70{
+    width: 100%;
+  }
   .p-fs {
     font-size: calc(8px + 1vw);
   }
