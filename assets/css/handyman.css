@@ -7,22 +7,6 @@
   font-family: "Poppins";
 }
 
-@media screen and (max-width: 450px) {
-  .common_space {
-    padding: 10px !important;
-    margin: 10px 0 !important;
-  }
-  .common_text {
-    padding: 10px !important;
-  }
-  .common_alignment {
-    text-align: center !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-}
-
 /*==== Header Starts ====*/
 
 .header {
@@ -330,6 +314,40 @@ ul li ul li a {
   border-top-left-radius: 70px;
   border-bottom-right-radius: 70px;
 }
+.w-15 {
+  width: 15px;
+}
+@media (min-width: 767px) and (max-width:1023px) {
+  .w-15 {
+    width: 12px;
+  }
+}
+.p-fs {
+  font-weight: 400;
+  font-size: calc(0.5rem + 0.4vw);
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .p-fs {
+    font-size: calc(8px + 1vw);
+  }
+  .package-p-tag {
+    font-size: calc(0.59rem + 0.7vw);
+  }
+  .offer-heading {
+    font-size: calc(1.5rem + 0.8vw) !important;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 980px) {
+  .p-fs {
+    font-size: small;
+  }
+}
+.offer-heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
 /* ====Accordion==== */
 .text-ff4397 {
   color: #ff4397;
@@ -398,6 +416,7 @@ ul li ul li a {
 .bottom_card_ptag {
   font-size: small;
 }
+
 
 /*==== Footer ====*/
 .footer {
