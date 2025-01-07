@@ -34,3 +34,8 @@ if (dateInput) {
     }
   });
 }
+
+function navigateBack() {
+  console.log("object")
+  window.history.go(-1);
+}

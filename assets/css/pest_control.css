@@ -7,21 +7,6 @@
   font-family: "Poppins";
 }
 
-@media screen and (max-width: 450px) {
-  .common_space {
-    padding: 10px !important;
-    margin: 10px 0 !important;
-  }
-  .common_text {
-    padding: 10px !important;
-  }
-  .common_alignment {
-    text-align: center !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-}
 
 /*==== Header Starts ====*/
 
@@ -247,6 +232,9 @@ ul li ul li a {
 }
 
 /*==== package section ====*/
+.w-15{
+  width: 15px;
+}
 .custom-card {
   border: #ff4397 1px solid;
   /* border-radius: 25px; */
@@ -267,6 +255,21 @@ ul li ul li a {
 .package-p-tag {
   font-size: calc(0.55rem + 0.4vw);
   padding-left: 3px;
+}
+@media (width >= 300px) and (width <= 400px) {
+  .price_green_badge{
+    top: -23px !important;
+    right: 0%;
+  }
+}
+@media (width >= 768px) and (width <= 992px) {
+  .price_green_badge{
+    top: -23px !important;
+    right: 0%;
+  }
+  .card-heading {
+    font-size: calc(0.64rem + 0.4vw);
+  }
 }
 @media (max-width: 767px) {
   .card-heading {
@@ -313,7 +316,6 @@ ul li ul li a {
   border-radius: 5px;
   position: absolute;
   top: -19px;
-  right: -6px;
 }
 
 /* ===steps=== */
@@ -378,6 +380,9 @@ ul li ul li a {
   font-size: calc(0.5rem + 0.4vw);
 }
 @media screen and (min-width: 300px) and (max-width: 767px) {
+  /* .image-cont {
+    height: 100%;
+  } */
   .p-fs {
     font-size: calc(8px + 1vw);
   }
@@ -399,7 +404,7 @@ ul li ul li a {
 }
 
 .offer_sub_heading {
-  font-size: 28px;
+  font-size: calc(1rem + 1vw);
   font-weight: 700;
   color: #ff4397;
 }

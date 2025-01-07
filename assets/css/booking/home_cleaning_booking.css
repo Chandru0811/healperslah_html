@@ -354,7 +354,7 @@ html[dir="rtl"] .progress-container .progress {
 
 .step {
   flex: 1 0 100%;
-  /* opacity: 0; */
+  opacity: 0;
   transition: opacity 0.3s;
   height: fit-content;
   display: grid;

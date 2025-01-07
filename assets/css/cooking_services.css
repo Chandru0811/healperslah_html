@@ -255,6 +255,9 @@
     ;
 }
 
+.w-15 {
+  width: 15px;
+}
 .package-p-tag {
     font-size: calc(0.55rem + 0.4vw);
     padding-left: 3px;
@@ -263,7 +266,6 @@
 @media (max-width: 767px) {
     .card-heading {
         font-size: calc(1rem + 0.5vw);
-        ;
     }
 }
 
@@ -309,7 +311,6 @@
     border-radius: 5px;
     position: absolute;
     top: -19px;
-    right: -6px;
 }
 
 /* ===steps=== */
@@ -414,6 +415,14 @@
     color: #ff4397;
 }
 
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .offer_sub_heading {
+    font-size: calc(1rem + 1.5vw);
+  }
+  .offer-heading{
+    font-size: 27px;
+  }
+}
 .offer_sub_content {
     color: #565656;
     font-size: 14px;

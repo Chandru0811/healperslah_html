@@ -8,131 +8,133 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./assets/css/pest_control.css" />
   </head>
   <body>
-      <!-- ====NAV bar==== -->
-      <section class="header">
-        <nav
-          class="navbar navbar-expand-lg py-0 primary-navigation"
-          role="navigation"
-        >
-          <div class="container-fluid px-0 py-md-2 py-lg-0 py-0 pt-2">
-            <a
-              href="./"
-              class="text-light text-decoration-none ps-2 ps-md-3 d-flex align-items-center text-start"
+    <!-- ====NAV bar==== -->
+    <section class="header">
+      <nav
+        class="navbar navbar-expand-lg py-0 primary-navigation"
+        role="navigation"
+      >
+        <div class="container-fluid px-0 py-md-2 py-lg-0 py-0 pt-2">
+          <a
+            href="./"
+            class="text-light text-decoration-none ps-2 ps-md-3 d-flex align-items-center text-start"
+          >
+            <img
+              src="./assets/images/Logo_3_Final_7.png"
+              alt="Logo"
+              class="me-2 my-1 my-md-2 img-fluid"
+              style="height: 60px"
+            />
+            <!-- <span class="fw-bold fs-4 mb-0">Helperslah</span> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto me-3 text-light ps-2 d-flex text-start"
             >
-              <img
-                src="./assets/images/Logo_3_Final_7.png"
-                alt="Logo"
-                class="me-2 my-1 my-md-2 img-fluid"
-                style="height: 60px"
-              />
-              <!-- <span class="fw-bold fs-4 mb-0">Helperslah</span> -->
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto me-3 text-light ps-2 d-flex text-start">
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item pe-3 dropdown_li">
-                  <p class="nav-link active mb-0">Services &dtrif;</p>
-                  <ul class="dropdown">
-                    <div class="pe-3">
-                      <li><a href="./home_cleaning.html">Home Cleaning</a></li>
-                      <li><a href="./office_cleaning.html">Office Cleaning</a></li>
-                      <li><a href="./deep_cleaning.html">Deep Cleaning</a></li>
-                      <li>
-                        <a href="./aircon_service_repair.html"
-                          >Aircon Service & Repair</a
-                        >
-                      </li>
-                      <li><a href="./handyman.html">Handyman</a></li>
-                    </div>
-                    <div class="pe-3">
-                      <li>
-                        <a href="./laundry.html">Laundry & Ironing Service</a>
-                      </li>
-                      <li>
-                        <a href="./cooking_services.html">Cooking Service</a>
-                      </li>
-                      <li>
-                        <a href="./move_in_out_cleaning.html"
-                          >Move in & out Cleaning</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./pest_control.html">Pest Control Service</a>
-                      </li>
-                      <li>
-                        <a href="./packers_movers_singapore.html"
-                          >Moving & packing Service</a
-                        >
-                      </li>
-                    </div>
-                    <div class="pe-3">
-                      <li><a href="./task_assistant.html">Task Assistant</a></li>
-                      <li><a href="./plumber.html">Plumber</a></li>
-                      <li><a href="./electrician.html">Electrician</a></li>
-                      <li><a href="./carpenter.html">Carpenter</a></li>
-                      <li><a href="./sofa_cleaning.html">Sofa Cleaning</a></li>
-                    </div>
-                    <div class="">
-                      <li>
-                        <a href="./mattress_cleaning.html">Mattress Cleaning</a>
-                      </li>
-                      <li><a href="./bathroom_cleaning.html">Bathroom Cleaning</a></li>
-                    </div>
-                  </ul>
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="./helperlah_partner.html"
-                    >Join as partner</a
-                  >
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="./contact_us.html"
-                    >Contact Us</a
-                  >
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="#">Login/Register</a>
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="#">
-                    <i class="fas fa-bell"></i>
-                  </a>
-                </li>
-              </ul>
-              <div class="num text-center py-3">
-                <a href="tel:+6588941306" class="text-decoration-none">
-                  <button
-                    class="btn register_button mx-3 mx-md-0 mx-lg-3 text-light"
-                    type="button"
-                  >
-                    <i class="fas fa-phone me-1"></i> +65 88941306
-                  </button>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item pe-3 dropdown_li">
+                <p class="nav-link active mb-0">Services &dtrif;</p>
+                <ul class="dropdown">
+                  <div class="pe-3">
+                    <li><a href="./home_cleaning.html">Home Cleaning</a></li>
+                    <li>
+                      <a href="./office_cleaning.html">Office Cleaning</a>
+                    </li>
+                    <li><a href="./deep_cleaning.html">Deep Cleaning</a></li>
+                    <li>
+                      <a href="./aircon_service_repair.html"
+                        >Aircon Service & Repair</a
+                      >
+                    </li>
+                    <li><a href="./handyman.html">Handyman</a></li>
+                  </div>
+                  <div class="pe-3">
+                    <li>
+                      <a href="./laundry.html">Laundry & Ironing Service</a>
+                    </li>
+                    <li>
+                      <a href="./cooking_services.html">Cooking Service</a>
+                    </li>
+                    <li>
+                      <a href="./move_in_out_cleaning.html"
+                        >Move in & out Cleaning</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./pest_control.html">Pest Control Service</a>
+                    </li>
+                    <li>
+                      <a href="./packers_movers_singapore.html"
+                        >Moving & packing Service</a
+                      >
+                    </li>
+                  </div>
+                  <div class="pe-3">
+                    <li><a href="./task_assistant.html">Task Assistant</a></li>
+                    <li><a href="./plumber.html">Plumber</a></li>
+                    <li><a href="./electrician.html">Electrician</a></li>
+                    <li><a href="./carpenter.html">Carpenter</a></li>
+                    <li><a href="./sofa_cleaning.html">Sofa Cleaning</a></li>
+                  </div>
+                  <div class="">
+                    <li>
+                      <a href="./mattress_cleaning.html">Mattress Cleaning</a>
+                    </li>
+                    <li>
+                      <a href="./bathroom_cleaning.html">Bathroom Cleaning</a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="./helperlah_partner.html"
+                  >Join as partner</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="./contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Login/Register</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">
+                  <i class="fas fa-bell"></i>
                 </a>
-              </div>
+              </li>
+            </ul>
+            <div class="num text-center py-3">
+              <a href="tel:+6588941306" class="text-decoration-none">
+                <button
+                  class="btn register_button mx-3 mx-md-0 mx-lg-3 text-light"
+                  type="button"
+                >
+                  <i class="fas fa-phone me-1"></i> +65 88941306
+                </button>
+              </a>
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
     </section>
 
     <section class="container-fluid px-0">
@@ -142,7 +144,7 @@
           <h1 class="h1-tag pt-5 pb-2">
             Pests under control, forever. By the Best in Singapore
           </h1>
-          <h2 class="h2-tag">
+          <h2 class="h2-tag px-md-0 px-2">
             Termites, Mosquito, Rodent, Reptile, Bees & Hornets, we handle them
             all
           </h2>
@@ -182,7 +184,7 @@
           </form>
         </div>
 
-        <div class="container text-end mt-5 pe-1 pe-md-0">
+        <div class="container text-end mt-5 pe-2 pe-md-0">
           <img
             src="./assets/images/google play store badge.svg"
             alt="Play store"
@@ -197,24 +199,22 @@
       </section>
 
       <!--==== package section ====-->
-      <section class="container my-5">
-        <div class="row">
-          <div class="col-12 my-5">
+      <section class="container my-md-5 mt-5">
+        <div class="row m-0">
+          <div class="col-12 my-md-5 my-4">
             <h3 class="text-color text-center">
               Our Ready to Use Pest Control Service Packages
             </h3>
           </div>
-          <div class="col-md-4 col-12 mb-5">
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
             <div class="text-center">
-              <h5 class="fw-medium my-4 my-md-5">
-                Pest Control - General&nbsp;<span
-                  style="position: relative"
-                  class="price_green_badge"
+              <h5 class="fw-medium my-4 my-md-5 card-heading position-relative">
+                Pest Control - General&nbsp;<span class="price_green_badge"
                   >Trending</span
                 >
               </h5>
             </div>
-            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
+            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1">
               <div class="d-flex justify-content-end">
                 <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
                   >from $ 75</span
@@ -226,12 +226,14 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-2">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Our expertise includes unique methods for various common
+                      pests, such as ants, cockroaches, bed bugs, flies, and
+                      booklice.
                     </p>
                   </div>
                 </div>
@@ -240,12 +242,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Heat control is used for pests, including insects like bed
+                      bugs, cockroaches, and some types of ants
                     </p>
                   </div>
                 </div>
@@ -254,12 +257,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Booklice controlled with sprays, reduced humidity, and
+                      dusting.
                     </p>
                   </div>
                 </div>
@@ -268,12 +272,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Effective fly control with life cycle interruption
                     </p>
                   </div>
                 </div>
@@ -285,13 +289,13 @@
               </button>
             </div>
           </div>
-          <div class="col-md-4 col-12 mb-5">
-            <div class="text-center">
-              <h5 class="fw-medium my-4 my-md-5">
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
+            <div class="text-center ">
+              <h5 class="fw-medium my-4 my-md-5 card-heading">
                 Mosquito Elimination & Control
               </h5>
             </div>
-            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
+            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1">
               <div class="d-flex justify-content-end">
                 <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
                   >from $ 370</span
@@ -303,12 +307,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Potential mosquito breeding sites on the property are
+                      identified and eliminated.
                     </p>
                   </div>
                 </div>
@@ -317,12 +322,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Guidance to clients on standing water removal
                     </p>
                   </div>
                 </div>
@@ -331,12 +336,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Larvicide application to ponds, birdbaths, and gutters
                     </p>
                   </div>
                 </div>
@@ -345,12 +350,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Spraying, fogging, and misting to kill adult mosquitoes
                     </p>
                   </div>
                 </div>
@@ -362,11 +367,11 @@
               </button>
             </div>
           </div>
-          <div class="col-md-4 col-12 mb-5">
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
             <div class="text-center">
-              <h5 class="fw-medium my-4 my-md-5">Termites Pest Control</h5>
+              <h5 class="fw-medium my-4 my-md-5 card-heading">Termites Pest Control</h5>
             </div>
-            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
+            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1">
               <div class="d-flex justify-content-end">
                 <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
                   >from $ 75</span
@@ -378,12 +383,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Identifying termite activity, such as mud tubes, termite
+                      droppings, and damaged wood.
                     </p>
                   </div>
                 </div>
@@ -392,12 +398,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Determine termite infestation types, eg., subterranean,
+                      drywood, etc.
                     </p>
                   </div>
                 </div>
@@ -406,12 +413,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Chemical treatments including soil treatments, baiting
+                      systems, foaming treatments.
                     </p>
                   </div>
                 </div>
@@ -420,12 +428,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Usage of physical barriers including termite shields.
                     </p>
                   </div>
                 </div>
@@ -438,7 +446,10 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-12 my-5 my-md-0">
+         
+        </div>
+        <div class="row m-0 mt-md-5">
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
             <div class="text-center">
               <h4
                 class="fw-medium my-3 my-md-4 pb-3 card-heading"
@@ -447,7 +458,7 @@
                 Rodent Pest Control &nbsp;
               </h4>
             </div>
-            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
+            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1">
               <div class="d-flex justify-content-end">
                 <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
                   >from $ 175</span
@@ -459,12 +470,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Sealing all possible rodent entry points including cracks,
+                      crevices, etc.
                     </p>
                   </div>
                 </div>
@@ -473,12 +485,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Installation of rodent-proof screens on vents, chimneys,
+                      and other openings
                     </p>
                   </div>
                 </div>
@@ -487,12 +500,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Exclusion of rodents through repellents, baiting, and
+                      trapping
                     </p>
                   </div>
                 </div>
@@ -501,12 +515,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Prevention of returns of the rodents through the
+                      above-said measures
                     </p>
                   </div>
                 </div>
@@ -518,13 +533,13 @@
               </button>
             </div>
           </div>
-          <div class="col-md-4 col-12 mb-5">
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
             <div class="text-center">
               <h4 class="fw-medium my-3 my-md-4 pb-3 text-nowrap card-heading">
                 Reptile Pest Control
               </h4>
             </div>
-            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
+            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card  flex-grow-1">
               <div class="d-flex justify-content-end">
                 <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
                   >from $ 450</span
@@ -536,12 +551,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Inspecting and sealing the entry points including cracks,
+                      gaps, and openings.
                     </p>
                   </div>
                 </div>
@@ -550,12 +566,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Nest removal by safe removal techniques
                     </p>
                   </div>
                 </div>
@@ -564,12 +580,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Entry-point sealing including cracks and crevices
                     </p>
                   </div>
                 </div>
@@ -578,12 +594,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Minimizing attractants including uncovered food,
+                      overflowing garbage, etc.
                     </p>
                   </div>
                 </div>
@@ -596,13 +613,13 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-12 mb-5">
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
             <div class="text-center">
               <h4 class="fw-medium my-3 my-md-4 pb-3 card-heading">
                 Bee & Hornet Pest Control
               </h4>
             </div>
-            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
+            <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1">
               <div class="d-flex justify-content-end">
                 <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
                   >from $ 175</span
@@ -614,12 +631,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Inspection and identification of nest
                     </p>
                   </div>
                 </div>
@@ -628,12 +645,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Nest removal by safe removal techniques
                     </p>
                   </div>
                 </div>
@@ -642,12 +659,12 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Entry-point sealing including cracks and crevices
                     </p>
                   </div>
                 </div>
@@ -656,12 +673,13 @@
                     <img
                       src="./assets/images/green_tick.svg"
                       alt="Green Tick"
-                      class="img-fluid w-50"
+                      class="img-fluid w-15"
                     />
                   </div>
-                  <div class="col-md-11 col-10 p-0 px-1">
+                  <div class="col-md-11 col-10 p-0 ps-2 pe-1">
                     <p class="package-p-tag">
-                      Lorem ipsum dolor sit amet consectetur elit.
+                      Minimizing attractants including uncovered food,
+                      overflowing garbage, etc.
                     </p>
                   </div>
                 </div>
@@ -677,9 +695,9 @@
       </section>
 
       <!--==== Clean Steps section ====-->
-      <section class="container my-5">
-        <div class="row">
-          <div class="col-12 my-5">
+      <section class="container my-md-5 mt-4 mb-3">
+        <div class="row m-0">
+          <div class="col-12 my-md-5 my-4">
             <h4 class="text-color text-center">
               3 Simple Steps to Keep Your Safe & Hygienic
             </h4>
@@ -689,9 +707,10 @@
               <p class="stpes-heading text-color">1</p>
               <p class="text-color">Book</p>
               <p class="clean-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quisquam rem reprehenderit assumenda quasi dolores molestiae
-                dolorum recusandae et nihil voluptates?
+                Are you fed up with pests? Book our pest control services in
+                simple steps. Book your service through our website or mobile
+                app. Schedule the next available slot for a stress-free life. We
+                have a flexible schedule to meet your demands.
               </p>
             </div>
           </div>
@@ -700,9 +719,10 @@
               <p class="stpes-heading text-color">2</p>
               <p class="text-color">Confirm Time & Availability</p>
               <p class="clean-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quisquam rem reprehenderit assumenda quasi dolores molestiae
-                dolorum recusandae et nihil voluptates?
+                Confirm your slot with our expert team. We will assign a
+                professional matching your requirements. If you want to
+                reschedule the appointment, do it through our mobile app before
+                the confirmation.
               </p>
             </div>
           </div>
@@ -711,9 +731,10 @@
               <p class="stpes-heading text-color">3</p>
               <p class="text-color">Stay Stress-free</p>
               <p class="clean-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quisquam rem reprehenderit assumenda quasi dolores molestiae
-                dolorum recusandae et nihil voluptates?
+                Pest control is crucial for maintaining hygiene and sanitation,
+                thus safeguarding our health and well-being. Sometimes pest
+                intrusion will create a lot of stress in our busy lives. Let us
+                handle the pest control professionally for you.
               </p>
             </div>
           </div>
@@ -721,10 +742,10 @@
       </section>
 
       <!-- What we Offer  -->
-      <section class="container common_space">
-        <div class="row m-0 pb-3 common_space">
-          <div class="col-12 my-5 common_space">
-            <h4 class="offer-heading text-center pb-5 common_space">
+      <section class="container ">
+        <div class="row m-0 pb-3 ">
+          <div class="col-12 my-md-5 mt-5 mb-2 ">
+            <h4 class="offer-heading text-center pb-md-5 ">
               What we offer ?
             </h4>
           </div>
@@ -733,7 +754,8 @@
           >
             <div class="image-cont position-relative">
               <!-- <div class="image_decs_right"></div> -->
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src="./assets/images/pest_img_2.webp"
                 alt="Cleaning "
                 class="img-fluid h-100 custom-border"
@@ -748,71 +770,73 @@
                 class="col-md-1 col-1 d-flex align-items-center text-center p-0"
               ></div>
               <div class="col-md-11 col-11 p-0">
-                <h5 class="mb-5 mb-md-2 mb-lg-5 offer_sub_heading">
+                <h5 class="mb-4 mb-lg-5 offer_sub_heading">
                   Inspection and Estimation
                 </h5>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                  class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Intensive visual inspection of the property, interiorly and
+                  exteriorly to identify any pest infestation. Interior
+                  inspection of all rooms, basements, crawl spaces, and
+                  cabinets. Exterior examination includes foundation, siding,
+                  roof, and others for potential entry points.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+               class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Evidence collection of pests includes droppings, gnaw marks,
+                  dead insects, live pests, and nests. This will result in the
+                  accurate determination of the type of pests, as well as an
+                  understanding the pests’ living habitat, life cycle, and
+                  behavior for effective pest control.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Estimating the severity of the infestation, including the
+                  number of pests, the extent of the damage, and potential
+                  health risks. Knowing the cause of infestation is also
+                  necessary to prevent any further intrusion.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row m-0 pb-3 common_space">
+        <div class="row m-0 pb-3 ">
           <div
             class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0"
           >
@@ -821,65 +845,69 @@
                 class="col-md-1 col-1 d-flex align-items-center text-center p-0"
               ></div>
               <div class="col-md-11 col-11 p-0">
-                <h5 class="mb-5 mb-md-2 mb-lg-5 offer_sub_heading">
+                 <h5 class="mb-4 mb-lg-5 offer_sub_heading">
                   Pest Control Treatment
                 </h5>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Chemical treatments include insecticides, rodenticides, and
+                  termiticides. Insecticides are useful in killing insects
+                  including ants, cockroaches, spiders, and fleas. The types of
+                  treatments include sprays, dusts, baits, or fog. Rodenticides
+                  are used to kill rats and mice and termiticides to control
+                  termites.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Physical and mechanical control include trapping, physical
+                  removal, and exclusion. Biological and environmental control
+                  also help remove pests. Trapping is beneficial for rodents and
+                  other insects. Exclusion is the sealing of pest entry points,
+                  including cracks and crevices.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Heat treatment is useful in removing bed bugs and other
+                  heat-sensitive pests. This treatment involves maintaining an
+                  elevated temperature for a specific period to ensure all pests
+                  die. Cold treatment is also available, but it is not commonly
+                  used for pest control.
                 </p>
               </div>
             </div>
@@ -889,7 +917,8 @@
           >
             <div class="image-cont position-relative">
               <!-- <div class="image_decs_left"></div> -->
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src="./assets/images/pest_img_1.webp"
                 alt="Cleaning"
                 class="img-fluid h-100 custom-border"
@@ -897,13 +926,14 @@
             </div>
           </div>
         </div>
-        <div class="row m-0 pb-3 common_space">
+        <div class="row m-0 pb-3 ">
           <div
             class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1"
           >
             <div class="image-cont position-relative">
               <!-- <div class="image_decs_right"></div> -->
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src="./assets/images/pest_img_3.webp"
                 alt="Cleaning "
                 class="img-fluid h-100 custom-border"
@@ -918,71 +948,73 @@
                 class="col-md-1 col-1 d-flex align-items-center text-center p-0"
               ></div>
               <div class="col-md-11 col-11 p-0">
-                <h5 class="mb-5 mb-md-2 mb-lg-5 offer_sub_heading">
+                 <h5 class="mb-4 mb-lg-5 offer_sub_heading">
                   General Prevention
                 </h5>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  General pest prevention includes proactive strategies to
+                  prevent any future pest infestation. General methods include
+                  sanitation and hygiene, exclusion and prevention, moisture
+                  control, regular inspection, and preventive maintenance.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Preventive mechanisms for pests include storing the food in
+                  airtight containers, cleaning up the spills and crumbs
+                  promptly, and cleaning up all countertops and floors
+                  regularly. Garbage disposal also should be done neatly and
+                  regularly.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Sealing the entry points plays an important role in pest
+                  control. Always seal cracks and crevices in walls,
+                  foundations, and around pipes. Installation of screens on
+                  windows will also help to prevent pests. Inspection of the
+                  property must be done regularly.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row m-0 pb-3 common_space">
+        <div class="row m-0 pb-3 ">
           <div
             class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0"
           >
@@ -991,65 +1023,67 @@
                 class="col-md-1 col-1 d-flex align-items-center text-center p-0"
               ></div>
               <div class="col-md-11 col-11 p-0">
-                <h5 class="mb-5 mb-md-2 mb-lg-5 offer_sub_heading">
+                 <h5 class="mb-4 mb-lg-5 offer_sub_heading">
                   Make sure they do not come back
                 </h5>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Proactive monitoring is needed to ensure that the pests will
+                  not come back. Helperlah will arrange regular follow-ups to
+                  help you with pest control. It is recommended that you
+                  regularly clean and maintain gutters and downspouts.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Sealing the entry points plays an important role in pest
+                  control. Always seal cracks and crevices in walls,
+                  foundations, and around pipes. Installation of screens on
+                  windows will also help to prevent pests. Inspection of the
+                  property must be done regularly.
                 </p>
               </div>
             </div>
             <div class="row">
               <div
-                class="col-md-1 col-2 d-flex justify-content-start align-items-start p-2 p-md-0"
+                 class="col-md-1 col-2 d-flex  justify-content-center align-items-start p-2 py-1 p-md-0 py-md-1"
               >
                 <img
                   src="./assets/images/green_tick.svg"
                   alt="Green Tick"
-                  style="width: 35% !important"
+                  class="img-fluid w-15"
                 />
               </div>
               <div class="col-md-11 col-10 p-0 pe-lg-2">
                 <p class="p-fs">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quas, quasi, dolores consequatur corporis at voluptate placeat
-                  corrupti tempore recusandae molestias iusto quos repellat
-                  cumque! Maxime debitis excepturi neque culpa aspernatur.
+                  Regular follow-ups are essential to ensure ongoing pest
+                  control success. During these inspections, we can continuously
+                  refine our strategies and prevent future infestations by
+                  identifying and addressing potential issues, such as locating
+                  pest entry points.
                 </p>
               </div>
             </div>
@@ -1059,7 +1093,8 @@
           >
             <div class="image-cont position-relative">
               <!-- <div class="image_decs_left"></div> -->
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src="./assets/images/pest_img_4.webp"
                 alt="Cleaning"
                 class="img-fluid h-100 custom-border"
@@ -1068,31 +1103,32 @@
           </div>
         </div>
 
-        <div class="row m-0 p-2 common_space">
+        <div class="row m-0 p-2 ">
           <div class="col-12">
             <p class="offer_sub_content">What we do not cover</p>
-            <br />
+            <br class="d-none d-md-block"/>
             <p class="offer_sub_content">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Helperlah always gives importance to the quality of the services.
+              Effective pest control requires the expertise of skilled
+              professionals. We are confident that our team of highly trained
+              professionals to address your needs effectively
             </p>
           </div>
         </div>
       </section>
 
       <!-- General Home Cleaning -->
-      <section class="container my-5 common_space">
+      <section class="container my-md-5 mt-5">
         <div class="col-12">
-          <h4 class="offer-heading text-center py-5 common_space">Why us?</h4>
+          <h4 class="offer-heading text-center py-md-5 pb-4 pt-3">Why us?</h4>
         </div>
-        <div class="row m-0 common_space">
+        <div class="row m-0 ">
           <div
             class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1"
           >
             <div class="image-cont position-relative">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src="./assets/images/pest_img_5.webp"
                 alt="Cleaning "
                 class="img-fluid h-100 custom-border"
@@ -1102,44 +1138,45 @@
           <div
             class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0"
           >
-            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-              Heading
+            <h5 class="mb-2 mb-md-5 offer_sub_heading" >
+              Experience and Expertise
             </h5>
             <p class="p-fs">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-              quasi, dolores consequatur corporis at voluptate placeat corrupti
-              tempore recusandae molestias iusto quos repellat cumque! Maxime
-              debitis excepturi neque culpa aspernatur.
+              Helperlah always gives importance to the quality of the services.
+              Effective pest control requires the expertise of skilled
+              professionals. We are confident that our team of highly trained
+              professionals to address your needs effectively
             </p>
             <br />
-            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-              Heading
+            <h5 class="mb-2 mb-md-5 offer_sub_heading" >
+              Best Treatment Methods and Products
             </h5>
             <p class="p-fs">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-              quasi, dolores consequatur corporis at voluptate placeat corrupti
-              tempore recusandae molestias iusto quos repellat cumque! Maxime
-              debitis excepturi neque culpa aspernatur.
+              In Singapore, we have the best treatment methods and products to
+              meet your pest control requirements. Our NEA-licensed pest control
+              technicians are equipped with innovative pest control methods and
+              the best available products in the international market.
             </p>
             <br />
-            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-              Heading
+            <h5 class="mb-2 mb-md-5 offer_sub_heading" >
+              Safety is Our Priority
             </h5>
             <p class="p-fs">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-              quasi, dolores consequatur corporis at voluptate placeat corrupti
-              tempore recusandae molestias iusto quos repellat cumque! Maxime
-              debitis excepturi neque culpa aspernatur.
+              Pest control methods involve the use of chemicals. Improper
+              administration of these chemicals can pose significant health
+              risks to humans. We are dedicated to practicing safe and effective
+              pest control methods in every instance.
             </p>
             <br />
-            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-              Heading
+            <h5 class="mb-2 mb-md-5 offer_sub_heading" >
+              Friendly Customer Service and Open Communication
             </h5>
             <p class="p-fs">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-              quasi, dolores consequatur corporis at voluptate placeat corrupti
-              tempore recusandae molestias iusto quos repellat cumque! Maxime
-              debitis excepturi neque culpa aspernatur.
+              We have a dedicated customer care team to help you in any
+              situation. If you have any questions, get in touch with us at any
+              time. We always prioritize customer satisfaction and open
+              communication about the treatment process, costs, and potential
+              risks.
             </p>
           </div>
         </div>
@@ -1148,8 +1185,8 @@
       <!-- FAQ and CTA  -->
 
       <div class="container">
-        <div class="row mt-0 mt-md-5">
-          <div class="col-12 my-5 d-flex justify-content-center">
+        <div class="row m-0 mt-0 mt-md-5">
+          <div class="col-12 my-md-5 mt-5 mb-4 d-flex justify-content-center">
             <h2 class="text-ff4397">Frequently Asked Questions</h2>
           </div>
           <div class="col-12 accorardian">
@@ -1164,7 +1201,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    What types of cleaning services do you offer?
+                    Do you provide NEA-licensed pest control technicians?
                   </button>
                 </h2>
                 <div
@@ -1174,9 +1211,9 @@
                   data-bs-parent="#faqAccordion"
                 >
                   <div class="accordion-body">
-                    We offer a variety of cleaning services, including general
-                    home cleaning, deep cleaning, kitchen cleaning, bathroom
-                    cleaning, and move-in/move-out cleaning.
+                    Yes, we are providing NEA-licensed pest control
+                    professionals to ensure your safety. We always give priority
+                    to the quality of our service.
                   </div>
                 </div>
               </div>
@@ -1191,7 +1228,7 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Do I need to provide cleaning supplies?
+                    Are you giving budget-friendly services?
                   </button>
                 </h2>
                 <div
@@ -1201,9 +1238,9 @@
                   data-bs-parent="#faqAccordion"
                 >
                   <div class="accordion-body">
-                    No, our team brings all the necessary cleaning supplies and
-                    equipment. If you prefer us to use your specific products,
-                    just let us know during booking.
+                    Yes, we are giving budget-friendly services across
+                    Singapore. We strive to offer premium services that are both
+                    effective and budget-friendly.
                   </div>
                 </div>
               </div>
@@ -1218,7 +1255,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    How long does a cleaning session take?
+                    Do you offer pet-safe and human-safe pest control?
                   </button>
                 </h2>
                 <div
@@ -1228,9 +1265,8 @@
                   data-bs-parent="#faqAccordion"
                 >
                   <div class="accordion-body">
-                    The duration of the cleaning session depends on the size of
-                    your home and the type of cleaning required. A typical
-                    session takes between 2 to 4 hours.
+                    Yes, we are committed to giving you pet-safe and human-safe
+                    pest control services. Your safety is always our priority.
                   </div>
                 </div>
               </div>
@@ -1245,7 +1281,8 @@
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    Are your cleaners background-checked?
+                    Is pest control essential for maintaining a healthy
+                    lifestyle?
                   </button>
                 </h2>
                 <div
@@ -1255,8 +1292,10 @@
                   data-bs-parent="#faqAccordion"
                 >
                   <div class="accordion-body">
-                    Yes, all our cleaners are thoroughly vetted and
-                    background-checked to ensure your safety and peace of mind.
+                    Pest control is essential for a healthy lifestyle. Many
+                    pests, such as rodents, cockroaches, and mosquitoes, can
+                    transmit diseases to humans. Pests can trigger allergies and
+                    asthma most of the time.
                   </div>
                 </div>
               </div>
@@ -1271,7 +1310,8 @@
                     aria-expanded="false"
                     aria-controls="collapseFive"
                   >
-                    Can I reschedule or cancel a booking?
+                    Do you have friendly customer care to guide us in this
+                    process?
                   </button>
                 </h2>
                 <div
@@ -1281,9 +1321,9 @@
                   data-bs-parent="#faqAccordion"
                 >
                   <div class="accordion-body">
-                    Yes, you can reschedule or cancel your booking. Please note
-                    that we require at least 24 hours' notice to avoid
-                    cancellation fees.
+                    Yes, we have dedicated customer care to guide you throughout
+                    this entire process. Enjoy flexible scheduling with our
+                    helpful customer care team.
                   </div>
                 </div>
               </div>
@@ -1297,18 +1337,22 @@
             <div class="col-md-1 col-12 pe-0"></div>
             <div class="col-md-7 col-12 py-2 py-md-4 ps-4 ps-md-0 pe-3 pe-md-0">
               <p class="text-light fw-small bottom_card_ptag">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Are you searching for the best pest control services in
+                Singapore? Helperlah will provide you with top-notch pest
+                control services with NEA-licensed pest control professionals.
+                Get rid of pests, such as rodents, cockroaches, and mosquitoes,
+                which can transmit diseases to humans. Get the Helperlah Mobile
+                App for a better experience!
               </p>
               <div class="mt-4 mt-md-2 text-center text-md-start">
-                <img loading="lazy"
+                <img
+                  loading="lazy"
                   src="./assets/images/google play store badge.svg"
                   alt="Play store"
                   class="link_img me-3"
                 />
-                <img loading="lazy"
+                <img
+                  loading="lazy"
                   src="./assets/images/App store badge.svg"
                   alt="App store"
                   class="link_img"

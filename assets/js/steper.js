@@ -21,58 +21,59 @@ $(document).ready(function () {
     errorClass: "error",
     // errorElement: "small",
     rules: {
-      "hours[]": {
-        atLeastOneChecked: true,
+      "hours": {
+        required: true,
       },
-      property: {
+      "property": {
         required: true,
       },
       paymentType: {
         required: true,
       },
-      email: {
-        required: true,
-        email: true,
-      },
-      phone: {
-        required: true,
-        digits: true,
-        minlength: 10,
-        maxlength: 15,
-      },
-      username: "required",
-      password: {
-        required: true,
-        minlength: 6,
-      },
-      "confirm-password": {
-        required: true,
-        equalTo: "#password",
-      },
-      bio: "required",
+      // email: {
+      //   required: true,
+      //   email: true,
+      // },
+      // phone: {
+      //   required: true,
+      //   digits: true,
+      //   minlength: 10,
+      //   maxlength: 15,
+      // },
+      // username: "required",
+      // password: {
+      //   required: true,
+      //   minlength: 6,
+      // },
+      // "confirm-password": {
+      //   required: true,
+      //   equalTo: "#password",
+      // },
+      // bio: "required",
     },
     messages: {
+      hours: "*Please select the Hours.",
       property: "!Please select the Property Type.",
       paymentType: "!please select the Payment Type",
-      email: {
-        required: "Please enter your email.",
-        email: "Please enter a valid email address.",
-      },
-      phone: {
-        required: "Please enter your phone number.",
-        digits: "Please enter only digits.",
-        minlength: "Phone number must be at least 10 digits.",
-        maxlength: "Phone number can't exceed 15 digits.",
-      },
-      username: "Please choose a username.",
-      password: {
-        required: "Please provide a password.",
-        minlength: "Password must be at least 6 characters long.",
-      },
-      "confirm-password": {
-        required: "Please confirm your password.",
-        equalTo: "Passwords do not match.",
-      },
+      // email: {
+      //   required: "Please enter your email.",
+      //   email: "Please enter a valid email address.",
+      // },
+      // phone: {
+      //   required: "Please enter your phone number.",
+      //   digits: "Please enter only digits.",
+      //   minlength: "Phone number must be at least 10 digits.",
+      //   maxlength: "Phone number can't exceed 15 digits.",
+      // },
+      // username: "Please choose a username.",
+      // password: {
+      //   required: "Please provide a password.",
+      //   minlength: "Password must be at least 6 characters long.",
+      // },
+      // "confirm-password": {
+      //   required: "Please confirm your password.",
+      //   equalTo: "Passwords do not match.",
+      // },
       // bio: "Please provide your bio.",
     },
     highlight: function (element) {
@@ -122,10 +123,11 @@ $(document).ready(function () {
   const updateProgress = () => {
     const width = currentStep / (steps.length - 1);
     progress.css("transform", `scaleX(${width})`);
-
+     if(currentStep === 1){
     const currentStepHeight = $(steps[currentStep]).outerHeight();
+    console.log("height", currentStepHeight);
     stepContainer.css("height", `${currentStepHeight}px`);
-
+     }
     steps.each((index, step) => {
       $(step).css("transform", `translateX(${currentStep * -100}%)`);
       $(step).toggleClass("current", index === currentStep);
