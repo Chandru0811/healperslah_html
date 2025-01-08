@@ -416,13 +416,28 @@ html[dir="rtl"] .progress-container .progress {
   cursor: pointer;
   border: 1px solid #ffacd1 !important;
 }
-.w-80 {
-  width: 85%;
+.cursor-pointer {
+  cursor: pointer !important;
 }
+.glance-card .card {
+  cursor: default !important;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.w-80 {
+  width: 92%;
+}
+/* @media (width >= 1600px) {
+  .w-80 {
+    width: 92% !important;
+  }
+} */
 @media (max-width: 997px) {
   .w-80 {
     width: 100%;
   }
+  
   .w-15 {
     width: 20px !important;
   }
@@ -436,12 +451,13 @@ html[dir="rtl"] .progress-container .progress {
   }
 }
 .card-wh {
-  height: 8rem;
+  height: 9rem;
   width: 90%;
 }
-.card span {
+.card span.badge {
   top: -19px;
   right: -27px;
+  --bs-badge-font-weight: 400;
 }
 .fs-14 {
   font-size: 12px;
@@ -472,9 +488,9 @@ html[dir="rtl"] .progress-container .progress {
   transition: 0.5s transform, 0.5s box-shadow, 0.5s border-color;
 }
 .package-type:hover {
-  transform: scale(1.05); 
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
-  border-color: #ff6fa9; 
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-color: #ff6fa9;
 }
 .radio-card input:checked + .package-type {
   border: 1px solid #ff4397 !important;
@@ -482,11 +498,10 @@ html[dir="rtl"] .progress-container .progress {
   color: #ffffff;
 }
 .radio-card input:checked + .package-type:hover {
-  transform: none; 
-  box-shadow: none; 
-  border-color: #ff4397; 
+  transform: none;
+  box-shadow: none;
+  border-color: #ff4397;
 }
-
 
 .property-type {
   font-size: calc(0.6rem + 0.5vw);
@@ -494,7 +509,7 @@ html[dir="rtl"] .progress-container .progress {
   background-color: #fff;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   text-align: center;
   /* z-index: 1; */
   /* overflow: hidden; */
@@ -503,9 +518,9 @@ html[dir="rtl"] .progress-container .progress {
   transition: 0.5s all;
 }
 .property-type:hover {
-  transform: scale(1.05); 
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
-  border-color: #ff6fa9; 
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-color: #ff6fa9;
 }
 .radio-card input:checked + .property-type {
   border: 1px solid #ff4397 !important;
@@ -513,9 +528,9 @@ html[dir="rtl"] .progress-container .progress {
   color: #ffffff;
 }
 .radio-card input:checked + .property-type:hover {
-  transform: none; 
-  box-shadow: none; 
-  border-color: #ff4397; 
+  transform: none;
+  box-shadow: none;
+  border-color: #ff4397;
 }
 
 .weekly-btn {
@@ -565,13 +580,13 @@ html[dir="rtl"] .progress-container .progress {
 .radio-card input:checked + .weekly-btn:hover::before {
   content: none;
 }
-@media (width <= 766px) {
+
+@media (width <= 992px) {
   .weekly-btn {
-    width: 7.6em;
+    width: 100% ;
     /* margin-right: 0;
     margin-right: 0; */
   }
-  
 }
 
 textarea.custom-input {
@@ -646,44 +661,50 @@ input.custom-input {
 }
 
 /*===== STEP 2 =====*/
- .fs-bouns{
+.fs-bouns {
   font-size: calc(0.6rem + 0.5vw);
   font-weight: 500;
- }
+}
+.w-70 {
+  width: 75%;
+}
 .pets-card {
-  width: 15vw;
+  width: 44%;
   height: 12vw;
 }
-@media (width >= 767px) and (width <= 900px) {
+@media (width >= 1600px) {
   .pets-card {
-    width: 18vw !important;
-    height: 15vw !important;
+    width: 45%;
+    height: 14rem;
+  }
+  .w-70 {
+    width: 92%;
   }
 }
 
-@media (max-width: 750px) {
-  .pets-card {
-    width: 40vw !important;
-    height: 27vw !important;
-  }
-}
-@media (max-width: 997px) {
-  .w-80 {
-    width: 100% !important;
-  }
-  /* .property-btn {
-    font-size: 18px !important;
-  } */
-  .pets-card {
-    width: 15vw;
-    height: 15vw;
-  }
-}
-@media (width >= 1600px) {
-  .w-80 {
+@media (max-width: 991px) {
+  .w-70 {
     width: 100% !important;
   }
 }
+@media (max-width: 1024px) {
+  .pets-card {
+    width: 44% !important;
+    height: 8rem !important;
+  }
+  .w-70 {
+    width: 85%;
+  }
+}
+.btn-outline-success {
+  --bs-btn-color: #0dc648 !important;
+  --bs-btn-border-color: #0dc648 !important;
+  --bs-btn-hover-border-color: #0dc648 !important;
+  --bs-btn-hover-bg: #0dc648 !important;
+  --bs-btn-active-bg: #0dc648 !important;
+  --bs-btn-active-border-color: #0dc648 !important;
+}
+
 /* .property-btn {
   font-size: 24px;
   border: 1px solid #ff4397;
@@ -701,7 +722,6 @@ input.custom-input {
 /* .w-80 {
   width: 85%;
 } */
-
 
 .input {
   border: #0dc648 1px solid;
@@ -731,14 +751,13 @@ input.custom-input {
   transition: background-color 0.3s;
 }
 
-
 /*===== STEP 3 =====*/
 
 .radio-input {
-  accent-color: #ff4397; 
-  width: 20px; 
+  accent-color: #ff4397;
+  width: 20px;
   height: 20px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .payment-type {
@@ -773,7 +792,6 @@ input.custom-input {
   cursor: pointer;
   transition: background-color 0.3s;
 } */
-
 
 /*==== Footer ====*/
 .footer {
