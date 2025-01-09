@@ -237,9 +237,21 @@ ul li ul li a {
 /*==== package section ====*/
 .custom-card {
   border: #ff4397 1px solid;
-  /* border-radius: 25px; */
-}
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures the cards stretch equally */
 
+  /* border-radius: 25px; */
+  /* height: 65% !important;  */
+}
+@media (min-width:1600px) {
+  /* .custom-card {
+    height: 70% !important;
+  } */
+  /* .card-heading {
+    font-size: calc(0.79rem + 0.3vw) !important;
+  } */
+}
 .custom-badge {
   color: rgb(255, 255, 255);
   background-color: #ff4397;
@@ -253,19 +265,35 @@ ul li ul li a {
 
 .card-heading {
   font-size: calc(0.8rem + 0.3vw);
+  min-height: 60px;
 }
-
+.w-15 {
+  width: 15px;
+}
 .package-p-tag {
   font-size: calc(0.55rem + 0.4vw);
   padding-left: 3px;
 }
 
 @media (max-width: 767px) {
+  .custom-card{
+    height: auto;
+  }
   .card-heading {
     font-size: calc(1rem + 0.5vw);
   }
 }
 
+@media (width >= 768px) and (width <= 992px) {
+  .package-p-tag {
+    font-size: calc(0.5rem + 0.4vw);
+  }
+  .price_green_badge{
+    top: -23px !important;
+    right: 0%;
+  }
+  
+}
 .hover-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
