@@ -201,7 +201,7 @@ ul li ul li a {
     width: 1400px;
   }
   .p-tag {
-    font-size: calc(2px + 0.4vw);
+    font-size: calc(2px + 0.39vw) !important;
   }
 }
 /*==== Home Section ====*/
