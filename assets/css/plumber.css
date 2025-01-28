@@ -254,7 +254,9 @@
     font-size: calc(0.8rem + 0.3vw);
     white-space: nowrap;
 }
-
+.w-15 {
+  width: 15px;
+}
 .package-p-tag {
     font-size: calc(0.55rem + 0.4vw);
     padding-left: 3px;
@@ -423,6 +425,14 @@
     font-size: 14px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .offer_sub_heading {
+    font-size: calc(1rem + 1.5vw);
+  }
+  .offer-heading{
+    font-size: 23px;
+  }
+}
 .border {
     border-radius: 10px;
 }
