@@ -411,7 +411,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
     box-shadow: 2px 2px 2px 0px #e1006542;
 }
 
-.image-cont {
+/* .image-cont {
     height: 90%;
     position: relative;
 }
@@ -429,7 +429,6 @@ input[type="date"]::-webkit-datetime-edit-year-field {
 }
 
 .img-fluid.custom-border {
-    /* border-radius: 3px; */
     height: auto;
     width: 100%;
     object-fit: cover;
@@ -461,7 +460,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
         bottom: -10%;
         right: -7%;
     }
-}
+} */
 
 
 /* ====Accordion==== */

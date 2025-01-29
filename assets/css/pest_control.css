@@ -408,7 +408,14 @@ ul li ul li a {
   font-weight: 700;
   color: #ff4397;
 }
-
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .offer_sub_heading {
+    font-size: calc(1rem + 1.5vw);
+  }
+  .offer-heading{
+    font-size: 23px;
+  }
+}
 .offer_sub_content {
   color: #565656;
   font-size: 14px;

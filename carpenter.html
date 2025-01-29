@@ -1,1247 +1,1568 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carpenter | Helperlah Singapore</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/carpenter.css" />
-</head>
+  </head>
 
-<body>
-      <!-- ====NAV bar==== -->
-      <section class="header">
-        <nav
-          class="navbar navbar-expand-lg py-0 primary-navigation"
-          role="navigation"
-        >
-          <div class="container-fluid px-0 py-md-2 py-lg-0 py-0 pt-2">
-            <a
-              href="./"
-              class="text-light text-decoration-none ps-2 ps-md-3 d-flex align-items-center text-start"
+  <body>
+    <!-- ====NAV bar==== -->
+    <section class="header">
+      <nav
+        class="navbar navbar-expand-lg py-0 primary-navigation"
+        role="navigation"
+      >
+        <div class="container-fluid px-0 py-md-2 py-lg-0 py-0 pt-2">
+          <a
+            href="./"
+            class="text-light text-decoration-none ps-2 ps-md-3 d-flex align-items-center text-start"
+          >
+            <img
+              src="./assets/images/Logo_3_Final_7.png"
+              alt="Logo"
+              class="me-2 my-1 my-md-2 img-fluid"
+              style="height: 60px"
+            />
+            <!-- <span class="fw-bold fs-4 mb-0">Helperslah</span> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto me-3 text-light ps-2 d-flex text-start"
             >
-              <img
-                src="./assets/images/Logo_3_Final_7.png"
-                alt="Logo"
-                class="me-2 my-1 my-md-2 img-fluid"
-                style="height: 60px"
-              />
-              <!-- <span class="fw-bold fs-4 mb-0">Helperslah</span> -->
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto me-3 text-light ps-2 d-flex text-start">
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item pe-3 dropdown_li">
-                  <p class="nav-link active mb-0">Services &dtrif;</p>
-                  <ul class="dropdown">
-                    <div class="pe-3">
-                      <li><a href="./home_cleaning.html">Home Cleaning</a></li>
-                      <li><a href="./office_cleaning.html">Office Cleaning</a></li>
-                      <li><a href="./deep_cleaning.html">Deep Cleaning</a></li>
-                      <li>
-                        <a href="./aircon_service_repair.html"
-                          >Aircon Service & Repair</a
-                        >
-                      </li>
-                      <li><a href="./handyman.html">Handyman</a></li>
-                    </div>
-                    <div class="pe-3">
-                      <li>
-                        <a href="./laundry.html">Laundry & Ironing Service</a>
-                      </li>
-                      <li>
-                        <a href="./cooking_services.html">Cooking Service</a>
-                      </li>
-                      <li>
-                        <a href="./move_in_out_cleaning.html"
-                          >Move in & out Cleaning</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./pest_control.html">Pest Control Service</a>
-                      </li>
-                      <li>
-                        <a href="./packers_movers_singapore.html"
-                          >Moving & packing Service</a
-                        >
-                      </li>
-                    </div>
-                    <div class="pe-3">
-                      <li><a href="./task_assistant.html">Task Assistant</a></li>
-                      <li><a href="./plumber.html">Plumber</a></li>
-                      <li><a href="./electrician.html">Electrician</a></li>
-                      <li><a href="./carpenter.html">Carpenter</a></li>
-                      <li><a href="./sofa_cleaning.html">Sofa Cleaning</a></li>
-                    </div>
-                    <div class="">
-                      <li>
-                        <a href="./mattress_cleaning.html">Mattress Cleaning</a>
-                      </li>
-                      <li><a href="./bathroom_cleaning.html">Bathroom Cleaning</a></li>
-                    </div>
-                  </ul>
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="./helperlah_partner.html"
-                    >Join as partner</a
-                  >
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="./contact_us.html"
-                    >Contact Us</a
-                  >
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="#">Login/Register</a>
-                </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link active" href="#">
-                    <i class="fas fa-bell"></i>
-                  </a>
-                </li>
-              </ul>
-              <div class="num text-center py-3">
-                <a href="tel:+6588941306" class="text-decoration-none">
-                  <button
-                    class="btn register_button mx-3 mx-md-0 mx-lg-3 text-light"
-                    type="button"
-                  >
-                    <i class="fas fa-phone me-1"></i> +65 88941306
-                  </button>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item pe-3 dropdown_li">
+                <p class="nav-link active mb-0">Services &dtrif;</p>
+                <ul class="dropdown">
+                  <div class="pe-3">
+                    <li><a href="./home_cleaning.html">Home Cleaning</a></li>
+                    <li>
+                      <a href="./office_cleaning.html">Office Cleaning</a>
+                    </li>
+                    <li><a href="./deep_cleaning.html">Deep Cleaning</a></li>
+                    <li>
+                      <a href="./aircon_service_repair.html"
+                        >Aircon Service & Repair</a
+                      >
+                    </li>
+                    <li><a href="./handyman.html">Handyman</a></li>
+                  </div>
+                  <div class="pe-3">
+                    <li>
+                      <a href="./laundry.html">Laundry & Ironing Service</a>
+                    </li>
+                    <li>
+                      <a href="./cooking_services.html">Cooking Service</a>
+                    </li>
+                    <li>
+                      <a href="./move_in_out_cleaning.html"
+                        >Move in & out Cleaning</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./pest_control.html">Pest Control Service</a>
+                    </li>
+                    <li>
+                      <a href="./packers_movers_singapore.html"
+                        >Moving & packing Service</a
+                      >
+                    </li>
+                  </div>
+                  <div class="pe-3">
+                    <li><a href="./task_assistant.html">Task Assistant</a></li>
+                    <li><a href="./plumber.html">Plumber</a></li>
+                    <li><a href="./electrician.html">Electrician</a></li>
+                    <li><a href="./carpenter.html">Carpenter</a></li>
+                    <li><a href="./sofa_cleaning.html">Sofa Cleaning</a></li>
+                  </div>
+                  <div class="">
+                    <li>
+                      <a href="./mattress_cleaning.html">Mattress Cleaning</a>
+                    </li>
+                    <li>
+                      <a href="./bathroom_cleaning.html">Bathroom Cleaning</a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="./helperlah_partner.html"
+                  >Join as partner</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="./contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Login/Register</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">
+                  <i class="fas fa-bell"></i>
                 </a>
-              </div>
+              </li>
+            </ul>
+            <div class="num text-center py-3">
+              <a href="tel:+6588941306" class="text-decoration-none">
+                <button
+                  class="btn register_button mx-3 mx-md-0 mx-lg-3 text-light"
+                  type="button"
+                >
+                  <i class="fas fa-phone me-1"></i> +65 88941306
+                </button>
+              </a>
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
     </section>
 
     <section class="container-fluid px-0">
-        <!--==== Hero Section ====-->
-        <section class="partner_top py-5">
-            <div class="cta-container pb-4">
-                <h1 class="h1-tag pt-5 pb-2">
-                    The Best Carpenter Handyman Services in Singapore
-                </h1>
-                <h2 class="h2-tag">
-                    No task is impossible when you hire a handyman carpenter from Helperlah
-                </h2>
-            </div>
+      <!--==== Hero Section ====-->
+      <section class="partner_top py-5">
+        <div class="cta-container pb-4 px-2">
+          <h1 class="h1-tag pt-5 pb-2">
+            The Best Carpenter Handyman Services in Singapore
+          </h1>
+          <h2 class="h2-tag">
+            No task is impossible when you hire a handyman carpenter from
+            Helperlah
+          </h2>
+        </div>
 
-            <div class="container px-2 px-md-0 form-container">
-                <form class="py-3 py-md-5 card px-md-5 px-3">
-                    <div class="row">
-                        <div class="col-md-5 col-12">
-                            <input type="text" class="form-control my-3 form-control-lg w-100" placeholder="Your name"
-                                aria-label="Your name" />
-                        </div>
-                        <div class="col-md-5 col-12">
-                            <input type="tel" class="form-control my-3 form-control-lg w-100" placeholder="Phone number"
-                                aria-label="Phone number" id="phone-input" />
-                        </div>
-
-                        <div class="col-md-2 col-12 my-3">
-                            <button type="submit" class="fw-bold" style="white-space: nowrap">
-                                Let's Talk
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div class="container text-end mt-5 pe-1 pe-md-0">
-                <img src="./assets/images/play_store_badge.webp" alt="Play store" class="link_img me-4" />
-                <img src="./assets/images/app_store_badge.webp" alt="App store" class="link_img" />
-            </div>
-        </section>
-
-        <!--==== package section ====-->
-        <section class="container my-5">
+        <div class="container px-2 px-md-0 form-container">
+          <form class="py-3 py-md-5 card px-md-5 px-3">
             <div class="row">
-                <div class="col-12 my-5">
-                    <h3 class="text-color text-center">
-                        Our Ready to Use Carpenter Services Packages
-                    </h3>
-                </div>
-                <div class="col-md-4 col-12 mb-5 ">
-                    <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
-                        <div class="d-flex justify-content-end">
-                            <span class="badge custom-badge mt-4 mb-3 py-2 px-3">From $ 60</span>
-                        </div>
-                        <div class="px-3">
-                            <div class="row mt-3 mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center mt-5">
-                        <div class="pt-3">
-                            <div class="text-center">
-                                <h4 class="fw-medium my-3 my-md-4 pb-3 card-heading position-relative">
-                                    Carpenter Works - Minor &nbsp;<span class="price_green_badge">Trending</span>
-                                </h4>
-                            </div>
-                            <button type="button" class="btn book-now-btn me-auto">
-                                Book Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12 mb-5 ">
-                    <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
-                        <div class="d-flex justify-content-end">
-                            <span class="badge custom-badge mt-4 mb-3 py-2 px-3">From $ 120</span>
-                        </div>
-                        <div class="px-3">
-                            <div class="row mt-3 mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center mt-5">
-                        <div class="pt-3">
-                            <div class="text-center">
-                                <h4 class="fw-medium my-3 my-md-4  pb-3 card-heading">Carpenter Works - Major</h4>
-                            </div>
-                            <button type="button" class="btn book-now-btn me-auto">
-                                Book Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12 mb-5 ">
-                    <div class="card custom-card ps-1 ps-md-2 pb-2 hover-card">
-                        <div class="d-flex justify-content-end">
-                            <span class="badge custom-badge mt-4 mb-3 py-2 px-3 px-md-2 px-lg-3">Custom Quote After Site Visit</span>
-                        </div>
-                        <div class="px-3">
-                            <div class="row mt-3 mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-0 mb-lg-3">
-                                <div class="col-md-1 col-2 text-center px-2 p-md-0">
-                                    <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                                </div>
-                                <div class="col-md-11 col-10 p-0 px-1">
-                                    <p class="package-p-tag">
-                                        Lorem ipsum dolor sit amet consectetur elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center mt-5">
-                        <div class="pt-3">
-                            <div class="text-center">
-                                <h4 class="fw-medium my-3 my-md-4  pb-3 card-heading">Custom / Large Carpenter Tasks</h4>
-                            </div>
-                            <button type="button" class="btn book-now-btn me-auto">
-                                Book Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
+              <div class="col-md-5 col-12">
+                <input
+                  type="text"
+                  class="form-control my-3 form-control-lg w-100"
+                  placeholder="Your name"
+                  aria-label="Your name"
+                />
+              </div>
+              <div class="col-md-5 col-12">
+                <input
+                  type="tel"
+                  class="form-control my-3 form-control-lg w-100"
+                  placeholder="Phone number"
+                  aria-label="Phone number"
+                  id="phone-input"
+                />
+              </div>
 
+              <div class="col-md-2 col-12 my-3">
+                <button
+                  type="submit"
+                  class="fw-bold"
+                  style="white-space: nowrap"
+                >
+                  Let's Talk
+                </button>
+              </div>
             </div>
-        </section>
+          </form>
+        </div>
 
-        <!--==== Clean Steps section ====-->
-        <section class="container my-5">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h4 class="text-color text-center">
-                        3 Simple Steps to Solve Your Carpenter Needs
-                    </h4>
+        <div class="container text-end mt-5 pe-2 pe-md-0">
+          <img
+            src="./assets/images/play_store_badge.webp"
+            alt="Play store"
+            class="link_img me-4"
+          />
+          <img
+            src="./assets/images/app_store_badge.webp"
+            alt="App store"
+            class="link_img"
+          />
+        </div>
+      </section>
+
+      <!--==== package section ====-->
+      <section class="container my-md-5">
+        <div class="row">
+          <div class="col-12 my-5">
+            <h3 class="text-color text-center">
+              Our Ready to Use Carpenter Services Packages
+            </h3>
+          </div>
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
+            <div
+              class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1"
+            >
+              <div class="d-flex justify-content-end">
+                <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
+                  >From $ 60</span
+                >
+              </div>
+              <div class="px-3">
+                <div class="row mt-3 mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Fixing sticking doors and windows, replacing broken
+                      handles, hinges, and locks
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="text-center">
-                        <p class="stpes-heading text-color">1</p>
-                        <p class="text-color">Book</p>
-                        <p class="clean-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Quisquam rem reprehenderit assumenda quasi dolores molestiae
-                            dolorum recusandae et nihil voluptates?
-                        </p>
-                    </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Fixing loose joints, broken legs, and drawers, tightening
+                      screws, replacing worn-out parts
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="text-center">
-                        <p class="stpes-heading text-color">2</p>
-                        <p class="text-color">Confirm Time & Availability</p>
-                        <p class="clean-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Quisquam rem reprehenderit assumenda quasi dolores molestiae
-                            dolorum recusandae et nihil voluptates?
-                        </p>
-                    </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Reattaching loose molding and replacing trim pieces
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="text-center">
-                        <p class="stpes-heading text-color">3</p>
-                        <p class="text-color">Carpenter Tasks Attended</p>
-                        <p class="clean-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Quisquam rem reprehenderit assumenda quasi dolores molestiae
-                            dolorum recusandae et nihil voluptates?
-                        </p>
-                    </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Replacing damaged floorboards and fixing sagging shelves
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+            <div class="text-center mt-5">
+              <div class="pt-3">
+                <div class="text-center">
+                  <h4
+                    class="fw-medium my-3 my-md-4 pb-3 card-heading position-relative"
+                  >
+                    Carpenter Works - Minor &nbsp;<span
+                      class="price_green_badge"
+                      >Trending</span
+                    >
+                  </h4>
+                </div>
+                <button type="button" class="btn book-now-btn me-auto">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
+            <div
+              class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1"
+            >
+              <div class="d-flex justify-content-end">
+                <span class="badge custom-badge mt-4 mb-3 py-2 px-3"
+                  >From $ 120</span
+                >
+              </div>
+              <div class="px-3">
+                <div class="row mt-3 mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Roof framing works including building and installing roof
+                      trusses, rafters, and sheathing
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Kitchen cabinetry works including designing, making, and
+                      installing custom kitchen cabinets
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Making and installation of custom bathroom cabinets and
+                      vanities
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Designing and making of entertainment centres, custom
+                      shelving units, and other storage units
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-5">
+              <div class="pt-3">
+                <div class="text-center">
+                  <h4 class="fw-medium my-3 my-md-4 pb-3 card-heading">
+                    Carpenter Works - Major
+                  </h4>
+                </div>
+                <button type="button" class="btn book-now-btn me-auto">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-5 d-flex flex-column">
+            <div
+              class="card custom-card ps-1 ps-md-2 pb-2 hover-card flex-grow-1"
+            >
+              <div class="d-flex justify-content-end">
+                <span
+                  class="badge custom-badge mt-4 mb-3 py-2 px-3 px-md-2 px-lg-3"
+                  >Custom Quote After Site Visit</span
+                >
+              </div>
+              <div class="px-3">
+                <div class="row mt-3 mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      One-of-a-kind handcrafted furniture including dining
+                      tables, dressers, beds, etc.
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Custom staircases and ornamental woodwork
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Custom home with extensive tailor-made carpentry
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-0 mb-lg-3">
+                  <div class="col-md-1 col-2 text-center px-2 p-md-0">
+                    <img
+                      src="./assets/images/green_tick.svg"
+                      alt="Green Tick"
+                      class="img-fluid w-15"
+                    />
+                  </div>
+                  <div class="col-md-11 col-10 p-0 px-1">
+                    <p class="package-p-tag">
+                      Commercial interiors with a high level of craftsmanship
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-5">
+              <div class="pt-3">
+                <div class="text-center">
+                  <h4 class="fw-medium my-3 my-md-4 pb-3 card-heading">
+                    Custom / Large Carpenter Tasks
+                  </h4>
+                </div>
+                <button type="button" class="btn book-now-btn me-auto">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- === Need it === -->
-        <section class="container my-5">
-            <div class="col-12 pb-5">
-                <h4 class="offer-heading text-center pt-5">Why You Need A Professional Carpenter</h4>
-                <!-- <h5 class="mb-4 text-center" style="color: #ff4397; font-weight:500">
+      <!--==== Clean Steps section ====-->
+      <section class="container my-md-5 mb-5">
+        <div class="row m-0">
+          <div class="col-12 my-5">
+            <h4 class="text-color text-center">
+              3 Simple Steps to Solve Your Carpenter Needs
+            </h4>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="text-center">
+              <p class="stpes-heading text-color">1</p>
+              <p class="text-color">Book</p>
+              <p class="clean-text">
+                Book your skilled carpenter in simple steps. Book your slot
+                through our website or mobile application by filling in details
+                like date, time, location, and type of work.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="text-center">
+              <p class="stpes-heading text-color">2</p>
+              <p class="text-color">Confirm Time & Availability</p>
+              <p class="clean-text">
+                Confirm the availability of our skilled carpenter and freeze the
+                date and time. If you wish to reschedule, please do so before
+                the confirmation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="text-center">
+              <p class="stpes-heading text-color">3</p>
+              <p class="text-color">Carpenter Tasks Attended</p>
+              <p class="clean-text">
+                Conveniently schedule your appointment, and our expert will
+                arrive promptly to deliver timely and high-quality service. We
+                prioritize your satisfaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- === Need it === -->
+      <section class="container my-5">
+        <div class="col-12 pb-md-5 pb-3">
+          <h4 class="offer-heading text-center pt-md-5">
+            Why You Need A Professional Carpenter
+          </h4>
+          <!-- <h5 class="mb-4 text-center" style="color: #ff4397; font-weight:500">
                     How a professional electrician can save lives and money? 
                 </h5> -->
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1">
-                    <div class="image-cont position-relative">
-                        <img src="./assets/images/carpenter_prof_img.webp" loading="lazy" alt="Cleaning "
-                            class="img-fluid h-100 custom-border" />
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0">
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                    Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                    <br />
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                        Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                    <br />
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                        Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                    <br />
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                        Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- What we Offer  -->
-        <section class="container">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h4 class="offer-heading text-center pb-5">What we offer ?</h4>
-                </div>
-                <div class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1">
-                    <div class="image-cont position-relative">
-                        <!-- <div class="image_decs_right"></div> -->
-                        <img src="./assets/images/carpenter_offer_img1.webp" loading="lazy" alt="Inspection"
-                            class="img-fluid h-100 custom-border" />
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0">
-                    <div class="row">
-                        <div class="col-md-1 col-1 d-flex align-items-start text-center p-0"></div>
-                        <div class="col-md-11 col-11 p-0">
-                            <h5 class="mb-5 offer_sub_heading">
-                                Heading
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5 mt-0 mt-md-5 px-0 px-md-3 px-lg-4">
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
-                    <div class="row">
-                        <div class="col-md-1 col-1 d-flex align-items-start text-center p-0"></div>
-                        <div class="col-md-11 col-11 p-0">
-                            <h5 class="mb-5 offer_sub_heading">Heading </h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
-                    <div class="image-cont position-relative">
-                        <!-- <div class="image_decs_left"></div> -->
-                        <img src="./assets/images/carpenter_offer_img2.webp" loading="lazy" alt="Cleaning"
-                            class="img-fluid h-100 custom-border" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1">
-                    <div class="image-cont position-relative">
-                        <!-- <div class="image_decs_right"></div> -->
-                        <img src="./assets/images/carpenter_offer_img3.webp" loading="lazy" alt="Cleaning "
-                            class="img-fluid h-100 custom-border" />
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0">
-                    <div class="row">
-                        <div class="col-md-1 col-1 d-flex align-items-center text-center p-0"></div>
-                        <div class="col-md-11 col-11 p-0">
-                            <h5 class="mb-5 offer_sub_heading">General Carpenter Works </h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5 mt-0 mt-md-5 px-0 px-md-3 px-lg-4">
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
-                    <div class="row">
-                        <div class="col-md-1 col-1 d-flex align-items-center text-center p-0"></div>
-                        <div class="col-md-11 col-11 p-0">
-                            <h5 class="mb-5 offer_sub_heading">Custom Carpenter Works</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1 col-2 d-flex align-items-start text-center p-2">
-                            <img src="./assets/images/green_tick.svg" alt="Green Tick" class="img-fluid w-50" />
-                        </div>
-                        <div class="col-md-11 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
-                    <div class="image-cont position-relative">
-                        <!-- <div class="image_decs_left"></div> -->
-                        <img src="./assets/images/carpenter_offer_img4.webp" loading="lazy" alt="Cleaning"
-                            class="img-fluid h-100 custom-border" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="offer_sub_content">What we do not cover</p>
-                    <br />
-                    <p class="offer_sub_content text-wrap">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!--=== professional Trusted === -->
-        <section class="pt-5 container">
-            <div class="row m-0 pt-5">
-                <div class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1">
-                    <div class="image-cont position-relative">
-                        <img src="./assets/images/carpenter_why_img.webp" loading="lazy" alt="Cleaning " class="img-fluid h-100" />
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-start order-md-1 order-0">
-                    <div class="row">
-                        <div class="col-md-12 col-12 p-0">
-                            <h5 class="mb-2 offer_sub_heading">Why us?</h5>
-                            <p class="mb-5 offer_sub_contents">We make sure that you don’t have to attend the same issue twice
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-12 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-12 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-12 col-10 p-0 pe-1">
-                            <p class="p-fs">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Quas, quasi, dolores consequatur corporis at voluptate placeat
-                                corrupti tempore recusandae molestias iusto quos repellat
-                                cumque! Maxime debitis excepturi neque culpa aspernatur.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- General Home Cleaning -->
-        <section class="container my-5">
-            <div class="col-12">
-                <h4 class="offer-heading text-center py-5">Satisfaction Guaranteed</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1">
-                    <div class="image-cont position-relative">
-                        <img src="./assets/images/carpenter_gaurnt_img.webp" alt="Cleaning " loading="lazy"
-                            class="img-fluid h-100 custom-border" />
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0">
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                        Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                    <br />
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                        Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                    <br />
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                        Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                    <br />
-                    <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
-                        Heading
-                    </h5>
-                    <p class="p-fs">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-                        quasi, dolores consequatur corporis at voluptate placeat corrupti
-                        tempore recusandae molestias iusto quos repellat cumque! Maxime
-                        debitis excepturi neque culpa aspernatur.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ and CTA  -->
-
-        <div class="container">
-            <div class="row mt-0 mt-md-5">
-                <div class="col-12 my-5 d-flex justify-content-center">
-                    <h2 class="text-ff4397">Frequently Asked Questions</h2>
-                </div>
-                <div class="col-12 accorardian">
-                    <div class="accordion" id="faqAccordion">
-                        <div class="accordion-item mb-3 mb-md-5">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What types of cleaning services do you offer?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    We offer a variety of cleaning services, including general
-                                    home cleaning, deep cleaning, kitchen cleaning, bathroom
-                                    cleaning, and move-in/move-out cleaning.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Accordion Item 2 -->
-                        <div class="accordion-item mb-3 mb-md-5">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Do I need to provide cleaning supplies?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    No, our team brings all the necessary cleaning supplies and
-                                    equipment. If you prefer us to use your specific products,
-                                    just let us know during booking.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Accordion Item 3 -->
-                        <div class="accordion-item mb-3 mb-md-5">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How long does a cleaning session take?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    The duration of the cleaning session depends on the size of
-                                    your home and the type of cleaning required. A typical
-                                    session takes between 2 to 4 hours.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Accordion Item 4 -->
-                        <div class="accordion-item mb-3 mb-md-5">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Are your cleaners background-checked?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Yes, all our cleaners are thoroughly vetted and
-                                    background-checked to ensure your safety and peace of mind.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Accordion Item 5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Can I reschedule or cancel a booking?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Yes, you can reschedule or cancel your booking. Please note
-                                    that we require at least 24 hours' notice to avoid
-                                    cancellation fees.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="container my-3 my-md-5">
-            <div class="card bottom_card py-2 px-2">
-                <div class="row">
-                    <div class="col-md-1 col-12 pe-0"></div>
-                    <div class="col-md-7 col-12 py-2 py-md-4 ps-4 ps-md-0 pe-3 pe-md-0">
-                        <p class="text-light fw-small bottom_card_ptag">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book.
-                        </p>
-                        <div class="mt-4 mt-md-2 text-center text-md-start">
-                            <img src="./assets/images/play_store_badge.webp" loading="lazy" alt="Play store" class="link_img me-3" />
-                            <img src="./assets/images/app_store_badge.webp" loading="lazy" alt="App store" class="link_img" />
-                        </div>
-                    </div>
-                    <div
-                        class="col-md-4 py-4 py-md-0 pe-0 pe-md-4 pe-lg-0 col-lg-3 col-12 d-flex justify-content-md-end justify-content-center align-items-center">
-                        <button type="button" class="btn book_now_2">Book Now</button>
-                    </div>
-                    <div class="col-md-1 col-12"></div>
-                </div>
+        <div class="row m-0">
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1"
+          >
+            <div class="image-cont position-relative">
+              <img
+                src="./assets/images/carpenter_prof_img.webp"
+                loading="lazy"
+                alt="Cleaning "
+                class="img-fluid h-100 custom-border"
+              />
             </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0"
+          >
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Expertise and Skill
+            </h5>
+            <p class="p-fs">
+              Helperlah has a top-notch team of professional carpenters who have
+              years of training and experience. Professional carpenters ensure
+              high-quality work with precision. Expertise helps them complete
+              the job within the scheduled time.
+            </p>
+            <br />
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Time-Saving and Efficiency
+            </h5>
+            <p class="p-fs">
+              Professional carpenters have the tools and technology to complete
+              the job in a brisk. They are skilled and efficient and can
+              minimize any disruption to your daily routines. This efficiency
+              will definitely save valuable time and money.
+            </p>
+            <br />
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Safety and Risk Reduction
+            </h5>
+            <p class="p-fs">
+              By adhering to rigorous safety protocols and employing the
+              appropriate equipment, skilled professionals proactively minimize
+              the risk of accidents and injuries. Engaging a skilled
+              professional is always preferable to DIY or amateur attempts.
+              <br />
+            </p>
+
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Cost Reduction
+            </h5>
+            <p class="p-fs">
+              Imagine the advantage of working with a skilled professional.
+              Their in-depth knowledge allows for accurate material estimation,
+              resulting in a cost-effective project and a final product that
+              aligns perfectly with your budget.
+            </p>
+          </div>
         </div>
+      </section>
+
+      <!-- What we Offer  -->
+      <section class="container">
+        <div class="row m-0">
+          <div class="col-12 my-md-5">
+            <h4 class="offer-heading text-center pb-md-5 pb-4">What we offer ?</h4>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1"
+          >
+            <div class="image-cont position-relative">
+              <!-- <div class="image_decs_right"></div> -->
+              <img
+                src="./assets/images/carpenter_offer_img1.webp"
+                loading="lazy"
+                alt="Inspection"
+                class="img-fluid h-100 custom-border"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0"
+          >
+            <div class="row">
+              <div
+                class="col-md-1 col-1 d-flex align-items-start text-center p-0"
+              ></div>
+              <div class="col-md-11 col-11 p-0">
+                <h5 class="mb-md-5 mb-3 offer_sub_heading">Tailor-made Craftmanship</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Think of our carpenters as artists. They bring your vision to
+                  life, crafting unique and special pieces that are perfectly
+                  tailored to your style and needs. Our craftsmen will give
+                  attention to even minute details to give everything a classic
+                  look.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Our craftsmanship shines through in every creation, from
+                  elegant chairs to stunning interiors, and from exquisite
+                  dining tables to meticulously crafted kitchen cabinets. Each
+                  piece is a work of art that will captivate you.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  We practice sustainable solutions by utilizing eco-friendly
+                  materials and minimizing wastage during each project. As
+                  experienced professionals, we meticulously calculate the
+                  required raw materials for each step, minimizing waste and
+                  ensuring cost-effectiveness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0 mb-md-5 mb-3 mt-0 mt-md-5 px-0 px-md-3 px-lg-4">
+          <div
+            class="col-md-6 col-12 d-flex flex-column justify-content-center"
+          >
+            <div class="row">
+              <div
+                class="col-md-1 col-1 d-flex align-items-start text-center p-0"
+              ></div>
+              <div class="col-md-11 col-11 p-0">
+                <h5 class="mb-md-5 mb-3 offer_sub_heading">Modern Tools & Equipment</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Modern tools and equipment help to speed up the carpentry work
+                  and improve the craftmanship. For example, with the help of
+                  digital design and 3D visualization, you can see your project
+                  before it starts.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  3D visualization will allow you to plan the interiors,
+                  furniture, kitchen cabinets, and drawers according to your
+                  requirements. Through 3D visualization, you can accurately
+                  measure your available space to determine the appropriate
+                  furniture for your needs.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Modern tools and equipment help to reduce the cost of
+                  carpentry and time. Most of the manual work done previously in
+                  days now takes only hours. This has improved the accuracy of
+                  work too. Helperlah will help you to beautify your living
+                  space and workspace with top-notch carpentry work.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center"
+          >
+            <div class="image-cont position-relative">
+              <!-- <div class="image_decs_left"></div> -->
+              <img
+                src="./assets/images/carpenter_offer_img2.webp"
+                loading="lazy"
+                alt="Cleaning"
+                class="img-fluid h-100 custom-border"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1"
+          >
+            <div class="image-cont position-relative">
+              <!-- <div class="image_decs_right"></div> -->
+              <img
+                src="./assets/images/carpenter_offer_img3.webp"
+                loading="lazy"
+                alt="Cleaning "
+                class="img-fluid h-100 custom-border"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0"
+          >
+            <div class="row">
+              <div
+                class="col-md-1 col-1 d-flex align-items-center text-center p-0"
+              ></div>
+              <div class="col-md-11 col-11 p-0">
+                <h5 class="mb-md-5 mb-3 offer_sub_heading">General Carpenter Works</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Framing jobs including interior and exterior wall framing
+                  including installing studs, sheathing, and insulation. Roof
+                  framing includes setting up of roof trusses, rafters, and
+                  sheathing. Floor framing including setting up of floor joists,
+                  subflooring, and underlayment.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Finishing jobs including installing baseboards, crown molding,
+                  window and door casings, and other decorative trim. Door and
+                  window installation with other hardware, installing kitchen
+                  cabinets, bathroom vanities, and other built-in cabinetry.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  General carpentry works also include flooring installation.
+                  Different methods are used for flooring installation including
+                  nail down, glue down, and floating. Various types of flooring
+                  are popular nowadays including hardwood, laminate, and
+                  engineered wood.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0 mb-5 mt-3 mt-md-5 px-0 px-md-3 px-lg-4">
+          <div
+            class="col-md-6 col-12 d-flex flex-column justify-content-center"
+          >
+            <div class="row">
+              <div
+                class="col-md-1 col-1 d-flex align-items-center text-center p-0"
+              ></div>
+              <div class="col-md-11 col-11 p-0">
+                <h5 class="mb-md-5 mb-3 offer_sub_heading">Custom Carpenter Works</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Helperlah specializes in handcrafted furniture including
+                  extraordinarily crafted chairs, decorative items, dressers,
+                  beds, and dining tables with intricate carving and exceptional
+                  craftsmanship. Hand-crafted furniture is exclusively
+                  custom-made for art lovers.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Master crafting elaborate staircases with curved railings,
+                  intricate balusters, and unique materials. This will enhance
+                  the overall beauty of your home and give it a unique touch of
+                  elegance. Top-notch skills are required to accomplish these
+                  types of projects.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-1 col-2 d-flex align-items-start text-center p-2"
+              >
+                <img
+                  src="./assets/images/green_tick.svg"
+                  alt="Green Tick"
+                  class="img-fluid w-15"
+                />
+              </div>
+              <div class="col-md-11 col-10 p-0 pe-1">
+                <p class="p-fs">
+                  Elevate your interiors with stunning ornamental woodwork that
+                  will create a lasting impression. This will include crafting
+                  decorative elements like molding, corbels, and coffered
+                  ceilings with intricately carved designs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center"
+          >
+            <div class="image-cont position-relative">
+              <!-- <div class="image_decs_left"></div> -->
+              <img
+                src="./assets/images/carpenter_offer_img4.webp"
+                loading="lazy"
+                alt="Cleaning"
+                class="img-fluid h-100 custom-border"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-12">
+            <p class="offer_sub_content">What we do not cover</p>
+            <br />
+            <p class="offer_sub_content text-wrap">
+              Structural engineering, heavy timber framing, and working with
+              exotic woods and non-wood materials would come under the scope of
+              this work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=== professional Trusted === -->
+      <section class="pt-5 container">
+        <div class="row m-0 pt-md-5">
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1"
+          >
+            <div class="image-cont position-relative">
+              <img
+                src="./assets/images/carpenter_why_img.webp"
+                loading="lazy"
+                alt="Cleaning "
+                class="img-fluid h-100"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex flex-column justify-content-start order-md-1 order-0"
+          >
+            <div class="row m-0">
+              <div class="col-md-12 col-12 p-0">
+                <h5 class="mb-2 offer_sub_heading">Why us?</h5>
+                <p class="mb-md-5 offer_sub_contents">
+                  We make sure that you don’t have to attend the same issue
+                  twice
+                </p>
+              </div>
+            </div>
+            <div class="row m-0 py-3">
+              <div class="col-12 p-0 pe-1">
+                <p class="p-fs">
+                  Our skilled artisans, boasting years of experience in
+                  carpentry, bring a blend of traditional craftsmanship and
+                  modern techniques. Equipped with the latest tools and a
+                  passion for perfection, they create exquisite, functional, and
+                  artistic pieces.
+                </p>
+              </div>
+            </div>
+            <div class="row m-0 py-3">
+              <div class="col-12 p-0 pe-1">
+                <p class="p-fs">
+                  Helperlah is committed to providing the highest quality
+                  service, ensuring customer satisfaction at every step. Our
+                  carpentry service with seasoned carpenters will complete your
+                  project with the highest quality craftsmanship and attention
+                  to detail.
+                </p>
+              </div>
+            </div>
+            <div class="row m-0 py-3">
+              <div class="col-12 p-0 pe-1">
+                <p class="p-fs">
+                  We understand the importance of minimizing disruption. We
+                  ensure every project, big or small, is completed on time with
+                  minimal interference to your daily routines. Our expert
+                  carpenters will attend to every job quickly and precisely.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- General Home Cleaning -->
+      <section class="container my-5">
+        <div class="col-12">
+          <h4 class="offer-heading text-center py-md-5 pb-3">
+            Satisfaction Guaranteed
+          </h4>
+        </div>
+        <div class="row m-0">
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center algin-items-center order-md-0 order-1"
+          >
+            <div class="image-cont position-relative">
+              <img
+                src="./assets/images/carpenter_gaurnt_img.webp"
+                alt="Cleaning "
+                loading="lazy"
+                class="img-fluid h-100 custom-border"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex flex-column justify-content-center order-md-1 order-0"
+          >
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Strong Communication
+            </h5>
+            <p class="p-fs">
+              We practice open communication with the client from the start to
+              the completion of the project. This helps to understand the
+              expectations of the client in detail. We will regularly update you
+              about the progress of the project and challenges if any. We also
+              give importance to the client’s feedback.
+            </p>
+            <br />
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Supreme Quality
+            </h5>
+            <p class="p-fs">
+              We always prefer the finest quality of wood and hardware to ensure
+              longevity and aesthetic appeal. We offer skilled craftsmanship
+              with expertise in various techniques and modern equipment. We
+              ensure meticulous attention to every aspect of the project.
+            </p>
+            <br />
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Project Management
+            </h5>
+            <p class="p-fs">
+              We will establish realistic timelines for each project phase and
+              diligently adhere to them. Transparency in project costs is
+              paramount, and we are committed to delivering exceptional results
+              within the agreed budget.
+            </p>
+            <br />
+            <h5 class="mb-4" style="color: #ff4397; font-weight: 700">
+              Excellent Customer Care
+            </h5>
+            <p class="p-fs">
+              We believe in building strong and long relationships with our
+              clients. To ensure client satisfaction we offer after-project
+              support and maintenance. We provide comprehensive guidance
+              throughout your project, from start to finish, ensuring your
+              complete satisfaction, regardless of project scope.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ and CTA  -->
+
+      <div class="container">
+        <div class="row m-0 mt-0 mt-md-5">
+          <div class="col-12 my-md-5 mb-3 d-flex justify-content-center text-center">
+            <h2 class="text-ff4397">Frequently Asked Questions</h2>
+          </div>
+          <div class="col-12 accorardian">
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item mb-3 mb-md-5">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Why Choose Helperlah for Carpentry?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Helperlah has a bunch of creative professionals to make your
+                    home more attractive.
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 2 -->
+              <div class="accordion-item mb-3 mb-md-5">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Do you have a budget-friendly service?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we offer transparent pricing and always love to provide
+                    premium services at affordable prices.
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 3 -->
+              <div class="accordion-item mb-3 mb-md-5">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How to book your service?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    You can book our service in simple steps. You can choose our
+                    website or mobile application to book our service. Fill in
+                    the details like name, date, time, and type of service,
+                    etc., and confirm the service.
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 4 -->
+              <div class="accordion-item mb-3 mb-md-5">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Do you have customer care to guide us through our project?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we have an excellent customer care team to guide you
+                    throughout the project. You can talk with our expert team
+                    any time if you are in doubt.
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    What is the minimum notice period to book your service?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    To ensure timely service, please book your carpentry
+                    appointment with at least a two-hour notice period.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-3 my-md-5">
+        <div class="card bottom_card py-2 px-2">
+          <div class="row">
+            <div class="col-md-1 col-12 pe-0"></div>
+            <div class="col-md-7 col-12 py-2 py-md-4 ps-4 ps-md-0 pe-3 pe-md-0">
+              <p class="text-light fw-small bottom_card_ptag">
+                We offer various types of carpentry works to make your
+                home/office a better space to live/work. Our skilled artisans,
+                coupled with the latest technologies, transform your dreams into
+                reality. Experience the best service in Singapore! Enhance your
+                experience with our mobile app – download now!
+              </p>
+              <div class="mt-4 mt-md-2 text-center text-md-start">
+                <img
+                  src="./assets/images/play_store_badge.webp"
+                  loading="lazy"
+                  alt="Play store"
+                  class="link_img me-3"
+                />
+                <img
+                  src="./assets/images/app_store_badge.webp"
+                  loading="lazy"
+                  alt="App store"
+                  class="link_img"
+                />
+              </div>
+            </div>
+            <div
+              class="col-md-4 py-4 py-md-0 pe-0 pe-md-4 pe-lg-0 col-lg-3 col-12 d-flex justify-content-md-end justify-content-center align-items-center"
+            >
+              <button type="button" class="btn book_now_2">Book Now</button>
+            </div>
+            <div class="col-md-1 col-12"></div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--==== Footer Section ====-->
     <section class="container-fluid footer">
-        <div class="container">
-          <div class="row m-0 m-0">
-            <div class="col-lg-3 col-md-5 col-12 text-md-start text-center mt-4">
-              <div class="ps-2">
-                <p class="footer-title">Contact</p>
-                <!-- <img
+      <div class="container">
+        <div class="row m-0 m-0">
+          <div class="col-lg-3 col-md-5 col-12 text-md-start text-center mt-4">
+            <div class="ps-2">
+              <p class="footer-title">Contact</p>
+              <!-- <img
                       src="./assets/images/underline_footer_title.webp"
                       alt="underline_footer_title"
                       class="underline_img img-fluid lazyload"
                       
                     /> -->
+            </div>
+            <div class="footer-links">
+              <div class="links">
+                <a
+                  href="https://www.google.com/maps/place/The+Alexcier/@1.2916847,103.8111868,17z/data=!3m2!4b1!5s0x31da1a2cf1b2be13:0x7b0f9d88a36fdfbb!4m6!3m5!1s0x31da1bb95520771b:0xf2b9dfa378aa9a6e!8m2!3d1.2916793!4d103.8137617!16s%2Fg%2F11gyxjfkjk?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
+                  class="text-decoration-none d-flex justify-content-md-start justify-content-center align-items-center"
+                  style="font-size: 16px; color: #ffffff"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div>
+                    <img
+                      src="./assets/images/location_brand.webp"
+                      alt="location_brand"
+                      class="img-fluid p-2"
+                      style="font-size: 24px; height: 30px"
+                    />
+                    <span
+                      >The Alexcier, <br />
+                      237 Alexandra Road, #04-10,<br />
+                      Singapore-159929.</span
+                    >
+                  </div>
+                </a>
               </div>
-              <div class="footer-links">
-                <div class="links">
-                  <a
-                    href="https://www.google.com/maps/place/The+Alexcier/@1.2916847,103.8111868,17z/data=!3m2!4b1!5s0x31da1a2cf1b2be13:0x7b0f9d88a36fdfbb!4m6!3m5!1s0x31da1bb95520771b:0xf2b9dfa378aa9a6e!8m2!3d1.2916793!4d103.8137617!16s%2Fg%2F11gyxjfkjk?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
-                    class="text-decoration-none d-flex justify-content-md-start justify-content-center align-items-center"
-                    style="font-size: 16px; color: #ffffff"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div>
-                      <img
-                        src="./assets/images/location_brand.webp"
-                        alt="location_brand"
-                        class="img-fluid p-2"
-                        style="font-size: 24px; height: 30px"
-                      />
-                      <span
-                        >The Alexcier, <br />
-                        237 Alexandra Road, #04-10,<br />
-                        Singapore-159929.</span
-                      >
-                    </div>
-                  </a>
-                </div>
-                <div class="links">
-                  <a
-                    href="mailto:info@trucklah.com"
-                    class="text-decoration-none"
-                    style="font-size: 16px; color: #ffffff"
-                  >
-                    <img
-                      src="./assets/images/envelope_brand.webp"
-                      alt="envelope_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 30px"
-                    />
-                    info@helperlah.com</a
-                  >
-                </div>
-                <div class="links">
-                  <a
-                    href="tel:+6588941306"
-                    class="text-decoration-none"
-                    style="font-size: 16px; color: #ffffff"
-                  >
-                    <img
-                      src="./assets/images/phone_brand.webp"
-                      alt="phone_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 30px"
-                    />
-                    +65 8894 1306</a
-                  >
-                </div>
+              <div class="links">
+                <a
+                  href="mailto:info@trucklah.com"
+                  class="text-decoration-none"
+                  style="font-size: 16px; color: #ffffff"
+                >
+                  <img
+                    src="./assets/images/envelope_brand.webp"
+                    alt="envelope_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 30px"
+                  />
+                  info@helperlah.com</a
+                >
+              </div>
+              <div class="links">
+                <a
+                  href="tel:+6588941306"
+                  class="text-decoration-none"
+                  style="font-size: 16px; color: #ffffff"
+                >
+                  <img
+                    src="./assets/images/phone_brand.webp"
+                    alt="phone_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 30px"
+                  />
+                  +65 8894 1306</a
+                >
               </div>
             </div>
-            <div class="col-lg-5 col-md-7 col-12 text-md-start text-center mt-4">
-              <div class="row">
-                <p class="footer-title">Services</p>
-                <!-- <img
+          </div>
+          <div class="col-lg-5 col-md-7 col-12 text-md-start text-center mt-4">
+            <div class="row">
+              <p class="footer-title">Services</p>
+              <!-- <img
                         src="../assets/images/footer/underline_footer_title.webp"
                         alt="underline_footer_title"
                         class="underline_img img-fluid lazyload"
                         
                       /> -->
-                <div class="col-md-6 col-12">
-                  <div class="footer-links">
-                    <div class="links2">
-                      <a
-                        href="./home_cleaning.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Home Cleaning</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./office_cleaning.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Office Cleaning</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./deep_cleaning.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Deep Cleaning</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./aircon_service_repair.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Aircon Service</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./handyman.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Handyman</a
-                      >
-                    </div>
+              <div class="col-md-6 col-12">
+                <div class="footer-links">
+                  <div class="links2">
+                    <a
+                      href="./home_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Home Cleaning</a
+                    >
                   </div>
-                </div>
-                <div class="col-md-6 col-12">
-                  <div class="footer-links">
-                    <div class="links2">
-                      <a
-                        href="./move_in_out_cleaning.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Move In/Out Services</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./packers_movers_singapore.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Moving & Packing Services</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./laundry.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Laundry & Ironing Services</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./cooking_services.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Cooking Services</a
-                      >
-                    </div>
-                    <div class="links2">
-                      <a
-                        href="./plumber.html"
-                        rel="noopener noreferrer"
-                        class="text-decoration-none"
-                        style="font-size: 16px; color: #ffffff"
-                        >Plumber</a
-                      >
-                    </div>
+                  <div class="links2">
+                    <a
+                      href="./office_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Office Cleaning</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="./deep_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Deep Cleaning</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="./aircon_service_repair.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Aircon Service</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="./handyman.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Handyman</a
+                    >
                   </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="col-lg-4 col-12 text-start mt-4 px-0 px-md-2 d-flex justify-content-center flex-column"
-            >
-              <div
-                class="list-unstyled d-flex flex-wrap gap-lg-1 gap-md-0 gap-0 justify-content-center align-items-center"
-              >
-                <span>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-decoration-none line-divider"
-                    aria-label="Visit our facebook page"
-                  >
-                    <img
-                      src="./assets/images/fb_brand.webp"
-                      alt="fb_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 50px"
-                    />
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-decoration-none line-divider"
-                    aria-label="Visit our twitter page"
-                  >
-                    <img
-                      src="./assets/images/twitter_brand.webp"
-                      alt="twitter_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 50px"
-                    />
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-decoration-none line-divider"
-                    aria-label="Visit our instagram page"
-                  >
-                    <img
-                      src="./assets/images/instagram_brand.webp"
-                      alt="instagram_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 50px"
-                    />
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-decoration-none line-divider"
-                    aria-label="Visit our linkedin page"
-                  >
-                    <img
-                      src="./assets/images/linkedin_brand.webp"
-                      alt="linkedin_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 50px"
-                    />
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-decoration-none line-divider"
-                    aria-label="Visit our youtube page"
-                  >
-                    <img
-                      src="./assets/images/youtube_brand.webp"
-                      alt="youtube_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 50px"
-                    />
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-decoration-none line-divider"
-                    aria-label="Visit our tiktok page"
-                  >
-                    <img
-                      src="./assets/images/tiktok_brand.webp"
-                      alt="tiktok_brand"
-                      class="img-fluid p-2"
-                      style="font-size: 24px; height: 50px"
-                    />
-                  </a>
-                </span>
+              <div class="col-md-6 col-12">
+                <div class="footer-links">
+                  <div class="links2">
+                    <a
+                      href="./move_in_out_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Move In/Out Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="./packers_movers_singapore.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Moving & Packing Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="./laundry.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Laundry & Ironing Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="./cooking_services.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Cooking Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="./plumber.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Plumber</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <div
+            class="col-lg-4 col-12 text-start mt-4 px-0 px-md-2 d-flex justify-content-center flex-column"
+          >
+            <div
+              class="list-unstyled d-flex flex-wrap gap-lg-1 gap-md-0 gap-0 justify-content-center align-items-center"
+            >
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our facebook page"
+                >
+                  <img
+                    src="./assets/images/fb_brand.webp"
+                    alt="fb_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our twitter page"
+                >
+                  <img
+                    src="./assets/images/twitter_brand.webp"
+                    alt="twitter_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our instagram page"
+                >
+                  <img
+                    src="./assets/images/instagram_brand.webp"
+                    alt="instagram_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our linkedin page"
+                >
+                  <img
+                    src="./assets/images/linkedin_brand.webp"
+                    alt="linkedin_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our youtube page"
+                >
+                  <img
+                    src="./assets/images/youtube_brand.webp"
+                    alt="youtube_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our tiktok page"
+                >
+                  <img
+                    src="./assets/images/tiktok_brand.webp"
+                    alt="tiktok_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+            </div>
+          </div>
         </div>
-        <hr class="text-light" />
-        <div class="copyrights">
-          <p class="text-center text-light m-0 pb-3">
-            2024 © Copyright Dealslah Pte Ltd. All Rights Reserved.
-          </p>
-        </div>
-      </section>
+      </div>
+      <hr class="text-light" />
+      <div class="copyrights">
+        <p class="text-center text-light m-0 pb-3">
+          2024 © Copyright Dealslah Pte Ltd. All Rights Reserved.
+        </p>
+      </div>
+    </section>
     <!--==== Footer End ====-->
 
-     <!-- scroll to top btn -->
-     <button class="button" id="back-to-top">
-        <svg class="svgIcon" viewBox="0 0 384 512">
-          <path
-            d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
-          ></path>
-        </svg>
-      </button>
+    <!-- scroll to top btn -->
+    <button class="button" id="back-to-top">
+      <svg class="svgIcon" viewBox="0 0 384 512">
+        <path
+          d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        ></path>
+      </svg>
+    </button>
 
     <script src="./assets/js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
