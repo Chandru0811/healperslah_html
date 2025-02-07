@@ -311,7 +311,12 @@ ul li ul li a {
   padding: 3px 7px;
   border-radius: 5px;
   position: absolute;
-  top: -10px;
+  top: -23px;
+}
+@media (min-width: 300px) and (max-width:991px) {
+  .price_green_badge {
+      right: 0;
+  }
 }
 .w-15{
   width: 15px;
